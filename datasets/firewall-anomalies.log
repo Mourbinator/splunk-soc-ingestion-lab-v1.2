@@ -1,0 +1,14 @@
+event_id=fw-an-0001 event_time=2026-10-10T00:00:01+0000 src_ip=192.0.2.50 dest_ip=198.51.100.20 src_port=40000 dest_port=443 protocol=tcp rule_id=LAB-01
+event_id=fw-an-0002 event_time=2026-10-10T00:00:02+0000 dest_ip=198.51.100.20 src_port=40000 dest_port=443 action=allow protocol=tcp rule_id=LAB-01
+event_id=fw-an-0003 event_time=2026-10-10T00:00:03+0000 src_ip=192.0.2.50 dest_ip=198.51.100.20 src_port=40000 dest_port=443 protocol=tcp rule_id=LAB-01 action=reset
+event_id=fw-an-0004 event_time=2026-10-10T00:00:04+9900 src_ip=192.0.2.50 dest_ip=198.51.100.20 src_port=40000 dest_port=443 protocol=tcp rule_id=LAB-01 action=allow
+event_id=fw-an-0005 event_time=2026-10-10T00:00:05+0000 src_ip=2001:db8::10 dest_ip=2001:db8::20 src_port=40000 dest_port=443 action=allow protocol=tcp rule_id=LAB-01
+event_id=fw-an-0006 event_time=2026-10-10T00:00:06+0000 src_ip=192.0.2.50 dest_ip=198.51.100.20 src_port=40000 dest_port=443 protocol=tcp rule_id=LAB-01 action=allow app="a=b c d"
+event_id=fw-an-0007 event_time=2026-10-10T00:00:07+0000 src_ip=192.0.2.50 dest_ip=198.51.100.20 src_port=40000 dest_port=443 protocol=tcp rule_id=LAB-01 action=allow
+event_id=fw-an-0007 event_time=2026-10-10T00:00:07+0000 src_ip=192.0.2.50 dest_ip=198.51.100.20 src_port=40000 dest_port=443 protocol=tcp rule_id=LAB-01 action=allow
+event_id=fw-an-0009 src_ip=192.0.2.50 dest_ip=198.51.100.20 src_port=40000 dest_port=443 protocol=tcp rule_id=LAB-01 action=deny
+event_id=fw-an-0010 event_time=2026-10-10T00:00:10+0000 src_ip=192.0.2.50 dest_ip=198.51.100.20 src_port=40000 dest_port=443 action=allow protocol=TCP rule_id=LAB-01
+event_id=fw-an-0011 event_time=2026-10-10T00:00:11+0000 src_ip=192.0.2.50 dest_ip=198.51.100.20 src_port=40000 dest_port=443 protocol=tcp rule_id=LAB-01 action=allow geo=FR
+event_id=fw-an-0012 event_time=2026-10-10T00:00:12+0000 src_ip=192.0.2.50 dest_ip=198.51.100.20 src_port=40000 dest_port=70000 action=allow protocol=tcp rule_id=LAB-01
+{"event_id":"fw-an-0013","time":"2026-10-10T00:00:13Z","src":"192.0.2.50","dst":"198.51.100.20","verdict":"allow"}
+fw-an-0014 2026-10-10T00:00:14+0000 192.0.2.50 198.51.100.20 40000 443 allow tcp LAB-01

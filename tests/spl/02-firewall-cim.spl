@@ -1,0 +1,1 @@
+| tstats count from datamodel=Network_Traffic where nodename=All_Traffic by All_Traffic.action, All_Traffic.transport

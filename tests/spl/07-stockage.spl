@@ -1,0 +1,3 @@
+| dbinspect index=network
+| stats count as buckets sum(sizeOnDiskMB) as size_mb min(startEpoch) as oldest max(endEpoch) as newest by state
+| eval oldest=strftime(oldest,"%F %T"), newest=strftime(newest,"%F %T")

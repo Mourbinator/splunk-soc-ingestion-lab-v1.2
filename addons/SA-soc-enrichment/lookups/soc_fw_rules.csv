@@ -1,0 +1,21 @@
+rule_id,rule_name,rule_severity
+LAB-01,Allow web outbound,low
+LAB-02,Block SSH from guest,medium
+LAB-03,Block RDP from internet,high
+LAB-04,Allow DNS resolvers,medium
+LAB-05,Block known bad ports,high
+LAB-06,Allow partner VPN,low
+LAB-07,Block telnet,high
+LAB-08,Allow mail relay,low
+LAB-09,Block SMB external,critical
+LAB-10,Allow NTP,low
+LAB-11,Block P2P,medium
+LAB-12,Allow monitoring,low
+LAB-13,Block tor exit nodes,high
+LAB-14,Allow backup window,low
+LAB-15,Block IRC,medium
+LAB-16,Allow patching,low
+LAB-17,Block SNMP external,high
+LAB-18,Allow LDAP internal,low
+LAB-19,Default deny,medium
+LAB-20,Default log-only,low

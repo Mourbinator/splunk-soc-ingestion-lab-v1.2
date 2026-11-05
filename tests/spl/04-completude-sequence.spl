@@ -1,0 +1,6 @@
+index=network sourcetype=soc:firewall earliest=-60m
+| rex field=event_id "^fw-(?<run>[a-z0-9]+)-(?<seq>\d+)$"
+| where isnotnull(seq)
+| eval seq=tonumber(seq)
+| stats min(seq) as first max(seq) as last dc(seq) as received count as raw_count by run
+| eval expected=last-first+1, missing=expected-received, duplicates=raw_count-received

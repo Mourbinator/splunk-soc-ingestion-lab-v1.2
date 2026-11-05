@@ -1,0 +1,2 @@
+index=network sourcetype=soc:firewall
+| stats count dc(event_id) as uniques values(action) as actions values(action_raw) as actions_brutes values(transport) as protos

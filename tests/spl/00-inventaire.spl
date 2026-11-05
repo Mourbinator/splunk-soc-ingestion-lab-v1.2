@@ -1,0 +1,1 @@
+| tstats count where index IN (network,linux,cloud,saas,win_event,security,lab_api) by index sourcetype host

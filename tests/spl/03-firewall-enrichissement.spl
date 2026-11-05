@@ -1,0 +1,3 @@
+index=network sourcetype=soc:firewall
+| stats count by dest_name dest_category dest_priority src_zone
+| sort - count

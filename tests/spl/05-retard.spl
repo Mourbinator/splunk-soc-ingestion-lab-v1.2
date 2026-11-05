@@ -1,0 +1,3 @@
+index=network sourcetype=soc:firewall earliest=-15m
+| eval lag=_indextime-_time
+| stats count perc50(lag) as p50 perc95(lag) as p95 max(lag) as max_lag

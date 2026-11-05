@@ -1,0 +1,561 @@
+Oct 10 00:00:00 lab-linux sshd[2000]: Accepted publickey for svc-backup from 198.51.100.105 port 12424 ssh2
+Oct 10 00:00:03 lab-linux sshd[2001]: Accepted publickey for svc-backup from 198.51.100.120 port 65479 ssh2
+Oct 10 00:00:06 lab-linux sshd[2002]: Accepted publickey for svc-backup from 198.51.100.38 port 54385 ssh2
+Oct 10 00:00:09 lab-linux sshd[2003]: Invalid user admin from 192.0.2.228 port 33432
+Oct 10 00:00:12 lab-linux sshd[2004]: Invalid user admin from 192.0.2.105 port 24638
+Oct 10 00:00:15 lab-linux sshd[2005]: Failed password for invalid user admin from 192.0.2.23 port 40486 ssh2
+Oct 10 00:00:18 lab-linux sshd[2006]: Failed password for bob from 192.0.2.86 port 61626 ssh2
+Oct 10 00:00:21 lab-linux sshd[2007]: Accepted publickey for root from 198.51.100.116 port 50418 ssh2
+Oct 10 00:00:24 lab-linux sshd[2008]: Accepted publickey for bob from 198.51.100.228 port 3826 ssh2
+Oct 10 00:00:27 lab-linux sshd[2009]: Accepted publickey for bob from 198.51.100.154 port 23414 ssh2
+Oct 10 00:00:30 lab-linux sshd[2010]: Accepted publickey for bob from 198.51.100.218 port 53369 ssh2
+Oct 10 00:00:33 lab-linux sshd[2011]: Accepted publickey for bob from 198.51.100.212 port 46454 ssh2
+Oct 10 00:00:36 lab-linux sshd[2012]: Accepted publickey for root from 198.51.100.226 port 8356 ssh2
+Oct 10 00:00:39 lab-linux sshd[2013]: Failed password for invalid user admin from 192.0.2.140 port 3775 ssh2
+Oct 10 00:00:42 lab-linux sshd[2014]: Accepted publickey for alice from 198.51.100.66 port 62267 ssh2
+Oct 10 00:00:45 lab-linux sshd[2015]: Accepted publickey for bob from 198.51.100.190 port 15886 ssh2
+Oct 10 00:00:48 lab-linux sshd[2016]: Invalid user admin from 192.0.2.202 port 22971
+Oct 10 00:00:51 lab-linux sshd[2017]: Accepted publickey for svc-backup from 198.51.100.188 port 55842 ssh2
+Oct 10 00:00:54 lab-linux sudo:    root : TTY=pts/0 ; PWD=/home/root ; USER=root ; COMMAND=/usr/bin/apt update
+Oct 10 00:00:57 lab-linux sudo:    bob : TTY=pts/0 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/bin/apt update
+Oct 10 00:01:00 lab-linux sshd[2020]: Invalid user admin from 192.0.2.177 port 50278
+Oct 10 00:01:03 lab-linux sshd[2021]: Failed password for invalid user admin from 192.0.2.58 port 42997 ssh2
+Oct 10 00:01:06 lab-linux sshd[2022]: Accepted publickey for bob from 198.51.100.214 port 46502 ssh2
+Oct 10 00:01:09 lab-linux sshd[2023]: pam_unix(sshd:session): session opened for user bob(uid=1001) by (uid=0)
+Oct 10 00:01:12 lab-linux sshd[2024]: pam_unix(sshd:session): session opened for user alice(uid=1001) by (uid=0)
+Oct 10 00:01:15 lab-linux sshd[2025]: pam_unix(sshd:session): session opened for user svc-backup(uid=1001) by (uid=0)
+Oct 10 00:01:18 lab-linux sshd[2026]: Accepted publickey for bob from 198.51.100.139 port 42852 ssh2
+Oct 10 00:01:21 lab-linux sshd[2027]: Failed password for bob from 192.0.2.7 port 2086 ssh2
+Oct 10 00:01:24 lab-linux sshd[2028]: Failed password for alice from 192.0.2.54 port 13194 ssh2
+Oct 10 00:01:27 lab-linux sudo:    alice : TTY=pts/0 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/apt update
+Oct 10 00:01:30 lab-linux sshd[2030]: Accepted publickey for alice from 198.51.100.109 port 62947 ssh2
+Oct 10 00:01:33 lab-linux sshd[2031]: Accepted publickey for root from 198.51.100.3 port 46756 ssh2
+Oct 10 00:01:36 lab-linux sshd[2032]: Accepted publickey for svc-backup from 198.51.100.100 port 25594 ssh2
+Oct 10 00:01:39 lab-linux sshd[2033]: Failed password for root from 192.0.2.159 port 39669 ssh2
+Oct 10 00:01:42 lab-linux sshd[2034]: pam_unix(sshd:session): session opened for user alice(uid=1001) by (uid=0)
+Oct 10 00:01:45 lab-linux sshd[2035]: Failed password for invalid user admin from 192.0.2.128 port 21971 ssh2
+Oct 10 00:01:48 lab-linux sshd[2036]: Accepted publickey for svc-backup from 198.51.100.180 port 32061 ssh2
+Oct 10 00:01:51 lab-linux sshd[2037]: pam_unix(sshd:session): session opened for user root(uid=1001) by (uid=0)
+Oct 10 00:01:54 lab-linux sudo:    root : TTY=pts/0 ; PWD=/home/root ; USER=root ; COMMAND=/usr/bin/apt update
+Oct 10 00:01:57 lab-linux sshd[2039]: Accepted publickey for svc-backup from 198.51.100.243 port 64683 ssh2
+Oct 10 00:02:00 lab-linux sshd[2040]: Invalid user admin from 192.0.2.7 port 25925
+Oct 10 00:02:03 lab-linux sshd[2041]: Failed password for root from 192.0.2.195 port 60391 ssh2
+Oct 10 00:02:06 lab-linux sshd[2042]: Failed password for svc-backup from 192.0.2.140 port 7056 ssh2
+Oct 10 00:02:09 lab-linux sshd[2043]: Failed password for alice from 192.0.2.117 port 25917 ssh2
+Oct 10 00:02:12 lab-linux sshd[2044]: Invalid user admin from 192.0.2.62 port 40582
+Oct 10 00:02:15 lab-linux sshd[2045]: Failed password for invalid user admin from 192.0.2.9 port 22183 ssh2
+Oct 10 00:02:18 lab-linux sshd[2046]: Accepted publickey for root from 198.51.100.56 port 41244 ssh2
+Oct 10 00:02:21 lab-linux sshd[2047]: Accepted publickey for alice from 198.51.100.176 port 9437 ssh2
+Oct 10 00:02:24 lab-linux sshd[2048]: Accepted publickey for alice from 198.51.100.240 port 34204 ssh2
+Oct 10 00:02:27 lab-linux sshd[2049]: Accepted publickey for bob from 198.51.100.119 port 19029 ssh2
+Oct 10 00:02:30 lab-linux sshd[2050]: Invalid user admin from 192.0.2.100 port 53538
+Oct 10 00:02:33 lab-linux sshd[2051]: pam_unix(sshd:session): session opened for user alice(uid=1001) by (uid=0)
+Oct 10 00:02:36 lab-linux sshd[2052]: Failed password for root from 192.0.2.45 port 60154 ssh2
+Oct 10 00:02:39 lab-linux sshd[2053]: Accepted publickey for bob from 198.51.100.11 port 20048 ssh2
+Oct 10 00:02:42 lab-linux sshd[2054]: Accepted publickey for root from 198.51.100.29 port 46034 ssh2
+Oct 10 00:02:45 lab-linux sshd[2055]: Failed password for alice from 192.0.2.51 port 32621 ssh2
+Oct 10 00:02:48 lab-linux sshd[2056]: Accepted publickey for alice from 198.51.100.100 port 51862 ssh2
+Oct 10 00:02:51 lab-linux sshd[2057]: Invalid user admin from 192.0.2.168 port 60360
+Oct 10 00:02:54 lab-linux sshd[2058]: Failed password for root from 192.0.2.12 port 20834 ssh2
+Oct 10 00:02:57 lab-linux sshd[2059]: Failed password for svc-backup from 192.0.2.222 port 45787 ssh2
+Oct 10 00:03:00 lab-linux sshd[2060]: Accepted publickey for root from 198.51.100.59 port 47805 ssh2
+Oct 10 00:03:03 lab-linux sshd[2061]: Accepted publickey for alice from 198.51.100.26 port 11800 ssh2
+Oct 10 00:03:06 lab-linux sshd[2062]: Failed password for alice from 192.0.2.113 port 33539 ssh2
+Oct 10 00:03:09 lab-linux sshd[2063]: Accepted publickey for root from 198.51.100.6 port 47450 ssh2
+Oct 10 00:03:12 lab-linux sshd[2064]: Accepted publickey for svc-backup from 198.51.100.163 port 36641 ssh2
+Oct 10 00:03:15 lab-linux sshd[2065]: Failed password for root from 192.0.2.9 port 19302 ssh2
+Oct 10 00:03:18 lab-linux sshd[2066]: Accepted publickey for root from 198.51.100.18 port 5295 ssh2
+Oct 10 00:03:21 lab-linux sshd[2067]: Failed password for svc-backup from 192.0.2.122 port 27325 ssh2
+Oct 10 00:03:24 lab-linux sshd[2068]: Accepted publickey for bob from 198.51.100.233 port 61832 ssh2
+Oct 10 00:03:27 lab-linux sshd[2069]: pam_unix(sshd:session): session opened for user alice(uid=1001) by (uid=0)
+Oct 10 00:03:30 lab-linux sshd[2070]: Failed password for bob from 192.0.2.171 port 13902 ssh2
+Oct 10 00:03:33 lab-linux sshd[2071]: Accepted publickey for svc-backup from 198.51.100.143 port 18260 ssh2
+Oct 10 00:03:36 lab-linux sshd[2072]: Accepted publickey for bob from 198.51.100.150 port 28107 ssh2
+Oct 10 00:03:39 lab-linux sshd[2073]: Failed password for alice from 192.0.2.60 port 14291 ssh2
+Oct 10 00:03:42 lab-linux sshd[2074]: Failed password for bob from 192.0.2.192 port 46995 ssh2
+Oct 10 00:03:45 lab-linux sshd[2075]: Accepted publickey for svc-backup from 198.51.100.16 port 34460 ssh2
+Oct 10 00:03:48 lab-linux sudo:    alice : TTY=pts/0 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/apt update
+Oct 10 00:03:51 lab-linux sshd[2077]: Failed password for alice from 192.0.2.78 port 58720 ssh2
+Oct 10 00:03:54 lab-linux sudo:    svc-backup : TTY=pts/0 ; PWD=/home/svc-backup ; USER=root ; COMMAND=/usr/bin/apt update
+Oct 10 00:03:57 lab-linux sshd[2079]: pam_unix(sshd:session): session opened for user bob(uid=1001) by (uid=0)
+Oct 10 00:04:00 lab-linux sshd[2080]: Accepted publickey for root from 198.51.100.55 port 7515 ssh2
+Oct 10 00:04:03 lab-linux sshd[2081]: Failed password for alice from 192.0.2.38 port 44741 ssh2
+Oct 10 00:04:06 lab-linux sshd[2082]: Failed password for bob from 192.0.2.221 port 50865 ssh2
+Oct 10 00:04:09 lab-linux sshd[2083]: Failed password for alice from 192.0.2.145 port 11819 ssh2
+Oct 10 00:04:12 lab-linux sshd[2084]: Failed password for root from 192.0.2.215 port 42024 ssh2
+Oct 10 00:04:15 lab-linux sshd[2085]: Accepted publickey for bob from 198.51.100.212 port 18225 ssh2
+Oct 10 00:04:18 lab-linux sshd[2086]: Accepted publickey for root from 198.51.100.11 port 58084 ssh2
+Oct 10 00:04:21 lab-linux sshd[2087]: Accepted publickey for root from 198.51.100.8 port 13646 ssh2
+Oct 10 00:04:24 lab-linux sshd[2088]: Invalid user admin from 192.0.2.239 port 25513
+Oct 10 00:04:27 lab-linux sshd[2089]: Accepted publickey for bob from 198.51.100.192 port 60498 ssh2
+Oct 10 00:04:30 lab-linux sshd[2090]: Failed password for root from 192.0.2.166 port 58162 ssh2
+Oct 10 00:04:33 lab-linux sudo:    bob : TTY=pts/0 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/bin/apt update
+Oct 10 00:04:36 lab-linux sshd[2092]: Accepted publickey for root from 198.51.100.198 port 5942 ssh2
+Oct 10 00:04:39 lab-linux sshd[2093]: Accepted publickey for alice from 198.51.100.107 port 5371 ssh2
+Oct 10 00:04:42 lab-linux sshd[2094]: Accepted publickey for bob from 198.51.100.198 port 43058 ssh2
+Oct 10 00:04:45 lab-linux sshd[2095]: Failed password for svc-backup from 192.0.2.101 port 19428 ssh2
+Oct 10 00:04:48 lab-linux sshd[2096]: Accepted publickey for svc-backup from 198.51.100.78 port 55833 ssh2
+Oct 10 00:04:51 lab-linux sshd[2097]: Accepted publickey for svc-backup from 198.51.100.236 port 21218 ssh2
+Oct 10 00:04:54 lab-linux sshd[2098]: pam_unix(sshd:session): session opened for user root(uid=1001) by (uid=0)
+Oct 10 00:04:57 lab-linux sshd[2099]: Accepted publickey for bob from 198.51.100.121 port 23114 ssh2
+Oct 10 00:05:00 lab-linux sshd[2100]: Failed password for root from 192.0.2.250 port 23464 ssh2
+Oct 10 00:05:03 lab-linux sshd[2101]: Accepted publickey for alice from 198.51.100.65 port 42254 ssh2
+Oct 10 00:05:06 lab-linux sshd[2102]: Failed password for svc-backup from 192.0.2.224 port 19960 ssh2
+Oct 10 00:05:09 lab-linux sshd[2103]: Accepted publickey for bob from 198.51.100.81 port 61764 ssh2
+Oct 10 00:05:12 lab-linux sshd[2104]: pam_unix(sshd:session): session opened for user bob(uid=1001) by (uid=0)
+Oct 10 00:05:15 lab-linux sshd[2105]: Accepted publickey for svc-backup from 198.51.100.50 port 55139 ssh2
+Oct 10 00:05:18 lab-linux sshd[2106]: Accepted publickey for root from 198.51.100.72 port 18319 ssh2
+Oct 10 00:05:21 lab-linux sshd[2107]: Accepted publickey for bob from 198.51.100.197 port 41201 ssh2
+Oct 10 00:05:24 lab-linux sshd[2108]: pam_unix(sshd:session): session opened for user bob(uid=1001) by (uid=0)
+Oct 10 00:05:27 lab-linux sshd[2109]: Invalid user admin from 192.0.2.49 port 46054
+Oct 10 00:05:30 lab-linux sshd[2110]: Invalid user admin from 192.0.2.183 port 36595
+Oct 10 00:05:33 lab-linux sshd[2111]: Accepted publickey for bob from 198.51.100.205 port 31346 ssh2
+Oct 10 00:05:36 lab-linux sshd[2112]: Accepted publickey for bob from 198.51.100.31 port 48510 ssh2
+Oct 10 00:05:39 lab-linux sshd[2113]: Invalid user admin from 192.0.2.75 port 42874
+Oct 10 00:05:42 lab-linux sshd[2114]: Failed password for svc-backup from 192.0.2.47 port 59172 ssh2
+Oct 10 00:05:45 lab-linux sshd[2115]: Accepted publickey for root from 198.51.100.96 port 17121 ssh2
+Oct 10 00:05:48 lab-linux sshd[2116]: Accepted publickey for svc-backup from 198.51.100.239 port 38260 ssh2
+Oct 10 00:05:51 lab-linux sshd[2117]: Accepted publickey for svc-backup from 198.51.100.38 port 17717 ssh2
+Oct 10 00:05:54 lab-linux sshd[2118]: Accepted publickey for svc-backup from 198.51.100.32 port 64365 ssh2
+Oct 10 00:05:57 lab-linux sshd[2119]: Accepted publickey for root from 198.51.100.1 port 5385 ssh2
+Oct 10 00:06:00 lab-linux sshd[2120]: Failed password for svc-backup from 192.0.2.238 port 33467 ssh2
+Oct 10 00:06:03 lab-linux sshd[2121]: Accepted publickey for svc-backup from 198.51.100.131 port 38212 ssh2
+Oct 10 00:06:06 lab-linux sshd[2122]: Accepted publickey for svc-backup from 198.51.100.14 port 65352 ssh2
+Oct 10 00:06:09 lab-linux sshd[2123]: Accepted publickey for root from 198.51.100.153 port 8107 ssh2
+Oct 10 00:06:12 lab-linux sshd[2124]: Accepted publickey for root from 198.51.100.81 port 8851 ssh2
+Oct 10 00:06:15 lab-linux sshd[2125]: Failed password for alice from 192.0.2.93 port 50839 ssh2
+Oct 10 00:06:18 lab-linux sudo:    alice : TTY=pts/0 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/apt update
+Oct 10 00:06:21 lab-linux sshd[2127]: Failed password for alice from 192.0.2.141 port 36100 ssh2
+Oct 10 00:06:24 lab-linux sshd[2128]: Failed password for alice from 192.0.2.237 port 49718 ssh2
+Oct 10 00:06:27 lab-linux sshd[2129]: Invalid user admin from 192.0.2.53 port 3641
+Oct 10 00:06:30 lab-linux sshd[2130]: pam_unix(sshd:session): session opened for user alice(uid=1001) by (uid=0)
+Oct 10 00:06:33 lab-linux sshd[2131]: Accepted publickey for svc-backup from 198.51.100.73 port 29191 ssh2
+Oct 10 00:06:36 lab-linux sshd[2132]: Failed password for bob from 192.0.2.159 port 40585 ssh2
+Oct 10 00:06:39 lab-linux sshd[2133]: Accepted publickey for svc-backup from 198.51.100.238 port 37240 ssh2
+Oct 10 00:06:42 lab-linux sshd[2134]: Accepted publickey for bob from 198.51.100.39 port 2528 ssh2
+Oct 10 00:06:45 lab-linux sshd[2135]: Accepted publickey for svc-backup from 198.51.100.196 port 15433 ssh2
+Oct 10 00:06:48 lab-linux sshd[2136]: Failed password for root from 192.0.2.53 port 36525 ssh2
+Oct 10 00:06:51 lab-linux sshd[2137]: Accepted publickey for bob from 198.51.100.24 port 38460 ssh2
+Oct 10 00:06:54 lab-linux sshd[2138]: Invalid user admin from 192.0.2.251 port 64861
+Oct 10 00:06:57 lab-linux sshd[2139]: Failed password for root from 192.0.2.32 port 7294 ssh2
+Oct 10 00:07:00 lab-linux sshd[2140]: Failed password for root from 192.0.2.57 port 16885 ssh2
+Oct 10 00:07:03 lab-linux sshd[2141]: Accepted publickey for bob from 198.51.100.229 port 12397 ssh2
+Oct 10 00:07:06 lab-linux sshd[2142]: pam_unix(sshd:session): session opened for user svc-backup(uid=1001) by (uid=0)
+Oct 10 00:07:09 lab-linux sshd[2143]: Failed password for svc-backup from 192.0.2.112 port 39011 ssh2
+Oct 10 00:07:12 lab-linux sshd[2144]: pam_unix(sshd:session): session opened for user root(uid=1001) by (uid=0)
+Oct 10 00:07:15 lab-linux sshd[2145]: Failed password for alice from 192.0.2.105 port 47713 ssh2
+Oct 10 00:07:18 lab-linux sshd[2146]: Accepted publickey for bob from 198.51.100.190 port 59227 ssh2
+Oct 10 00:07:21 lab-linux sshd[2147]: Accepted publickey for root from 198.51.100.6 port 36496 ssh2
+Oct 10 00:07:24 lab-linux sudo:    bob : TTY=pts/0 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/bin/apt update
+Oct 10 00:07:27 lab-linux sshd[2149]: Accepted publickey for svc-backup from 198.51.100.83 port 2381 ssh2
+Oct 10 00:07:30 lab-linux sshd[2150]: Accepted publickey for root from 198.51.100.215 port 30003 ssh2
+Oct 10 00:07:33 lab-linux sshd[2151]: Accepted publickey for svc-backup from 198.51.100.37 port 47125 ssh2
+Oct 10 00:07:36 lab-linux sshd[2152]: Failed password for root from 192.0.2.44 port 52670 ssh2
+Oct 10 00:07:39 lab-linux sshd[2153]: Accepted publickey for bob from 198.51.100.81 port 24175 ssh2
+Oct 10 00:07:42 lab-linux sshd[2154]: Accepted publickey for bob from 198.51.100.184 port 20073 ssh2
+Oct 10 00:07:45 lab-linux sshd[2155]: pam_unix(sshd:session): session opened for user root(uid=1001) by (uid=0)
+Oct 10 00:07:48 lab-linux sshd[2156]: Accepted publickey for alice from 198.51.100.176 port 62317 ssh2
+Oct 10 00:07:51 lab-linux sshd[2157]: Accepted publickey for alice from 198.51.100.116 port 47755 ssh2
+Oct 10 00:07:54 lab-linux sudo:    root : TTY=pts/0 ; PWD=/home/root ; USER=root ; COMMAND=/usr/bin/apt update
+Oct 10 00:07:57 lab-linux sshd[2159]: Accepted publickey for alice from 198.51.100.126 port 29616 ssh2
+Oct 10 00:08:00 lab-linux sshd[2160]: Invalid user admin from 192.0.2.233 port 28820
+Oct 10 00:08:03 lab-linux sshd[2161]: Failed password for svc-backup from 192.0.2.90 port 16002 ssh2
+Oct 10 00:08:06 lab-linux sshd[2162]: Failed password for svc-backup from 192.0.2.123 port 11385 ssh2
+Oct 10 00:08:09 lab-linux sshd[2163]: Failed password for bob from 192.0.2.217 port 3402 ssh2
+Oct 10 00:08:12 lab-linux sshd[2164]: Failed password for invalid user admin from 192.0.2.94 port 4168 ssh2
+Oct 10 00:08:15 lab-linux sudo:    alice : TTY=pts/0 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/apt update
+Oct 10 00:08:18 lab-linux sshd[2166]: Failed password for alice from 192.0.2.65 port 6218 ssh2
+Oct 10 00:08:21 lab-linux sshd[2167]: Accepted publickey for svc-backup from 198.51.100.116 port 10790 ssh2
+Oct 10 00:08:24 lab-linux sshd[2168]: Failed password for root from 192.0.2.72 port 58106 ssh2
+Oct 10 00:08:27 lab-linux sshd[2169]: pam_unix(sshd:session): session opened for user bob(uid=1001) by (uid=0)
+Oct 10 00:08:30 lab-linux sshd[2170]: Failed password for alice from 192.0.2.60 port 58158 ssh2
+Oct 10 00:08:33 lab-linux sshd[2171]: Failed password for alice from 192.0.2.147 port 43925 ssh2
+Oct 10 00:08:36 lab-linux sudo:    bob : TTY=pts/0 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/bin/apt update
+Oct 10 00:08:39 lab-linux sshd[2173]: Accepted publickey for root from 198.51.100.230 port 12029 ssh2
+Oct 10 00:08:42 lab-linux sshd[2174]: Failed password for bob from 192.0.2.155 port 47720 ssh2
+Oct 10 00:08:45 lab-linux sshd[2175]: Failed password for alice from 192.0.2.69 port 54585 ssh2
+Oct 10 00:08:48 lab-linux sudo:    alice : TTY=pts/0 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/apt update
+Oct 10 00:08:51 lab-linux sshd[2177]: Accepted publickey for svc-backup from 198.51.100.186 port 12749 ssh2
+Oct 10 00:08:54 lab-linux sshd[2178]: Failed password for bob from 192.0.2.63 port 52594 ssh2
+Oct 10 00:08:57 lab-linux sshd[2179]: Failed password for bob from 192.0.2.197 port 18871 ssh2
+Oct 10 00:09:00 lab-linux sshd[2180]: Accepted publickey for alice from 198.51.100.129 port 34087 ssh2
+Oct 10 00:09:03 lab-linux sshd[2181]: pam_unix(sshd:session): session opened for user root(uid=1001) by (uid=0)
+Oct 10 00:09:06 lab-linux sshd[2182]: Failed password for bob from 192.0.2.217 port 9693 ssh2
+Oct 10 00:09:09 lab-linux sshd[2183]: Failed password for svc-backup from 192.0.2.147 port 52349 ssh2
+Oct 10 00:09:12 lab-linux sshd[2184]: Failed password for bob from 192.0.2.117 port 12502 ssh2
+Oct 10 00:09:15 lab-linux sshd[2185]: Invalid user admin from 192.0.2.183 port 17291
+Oct 10 00:09:18 lab-linux sshd[2186]: Failed password for alice from 192.0.2.18 port 65436 ssh2
+Oct 10 00:09:21 lab-linux sshd[2187]: Accepted publickey for alice from 198.51.100.74 port 31221 ssh2
+Oct 10 00:09:24 lab-linux sshd[2188]: Accepted publickey for root from 198.51.100.174 port 50455 ssh2
+Oct 10 00:09:27 lab-linux sshd[2189]: Accepted publickey for root from 198.51.100.228 port 35433 ssh2
+Oct 10 00:09:30 lab-linux sshd[2190]: Accepted publickey for svc-backup from 198.51.100.202 port 40707 ssh2
+Oct 10 00:09:33 lab-linux sshd[2191]: Accepted publickey for root from 198.51.100.193 port 17501 ssh2
+Oct 10 00:09:36 lab-linux sshd[2192]: Accepted publickey for root from 198.51.100.43 port 33998 ssh2
+Oct 10 00:09:39 lab-linux sshd[2193]: pam_unix(sshd:session): session opened for user bob(uid=1001) by (uid=0)
+Oct 10 00:09:42 lab-linux sshd[2194]: Failed password for svc-backup from 192.0.2.216 port 20582 ssh2
+Oct 10 00:09:45 lab-linux sshd[2195]: Failed password for root from 192.0.2.98 port 25661 ssh2
+Oct 10 00:09:48 lab-linux sshd[2196]: Failed password for alice from 192.0.2.81 port 32954 ssh2
+Oct 10 00:09:51 lab-linux sshd[2197]: Failed password for alice from 192.0.2.56 port 29567 ssh2
+Oct 10 00:09:54 lab-linux sudo:    bob : TTY=pts/0 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/bin/apt update
+Oct 10 00:09:57 lab-linux sshd[2199]: Accepted publickey for bob from 198.51.100.167 port 53043 ssh2
+Oct 10 00:10:00 lab-linux sshd[2200]: Accepted publickey for bob from 198.51.100.37 port 2097 ssh2
+Oct 10 00:10:00 lab-linux sshd[2201]: Failed password for root from 192.0.2.99 port 50000 ssh2
+Oct 10 00:10:01 lab-linux sshd[2202]: Failed password for root from 192.0.2.99 port 50001 ssh2
+Oct 10 00:10:02 lab-linux sshd[2203]: Failed password for root from 192.0.2.99 port 50002 ssh2
+Oct 10 00:10:03 lab-linux sshd[2204]: pam_unix(sshd:session): session opened for user root(uid=1001) by (uid=0)
+Oct 10 00:10:03 lab-linux sshd[2205]: Failed password for root from 192.0.2.99 port 50003 ssh2
+Oct 10 00:10:04 lab-linux sshd[2206]: Failed password for root from 192.0.2.99 port 50004 ssh2
+Oct 10 00:10:05 lab-linux sshd[2207]: Failed password for root from 192.0.2.99 port 50005 ssh2
+Oct 10 00:10:06 lab-linux sshd[2208]: Accepted publickey for root from 198.51.100.96 port 58851 ssh2
+Oct 10 00:10:06 lab-linux sshd[2209]: Failed password for root from 192.0.2.99 port 50006 ssh2
+Oct 10 00:10:07 lab-linux sshd[2210]: Failed password for root from 192.0.2.99 port 50007 ssh2
+Oct 10 00:10:08 lab-linux sshd[2211]: Failed password for root from 192.0.2.99 port 50008 ssh2
+Oct 10 00:10:09 lab-linux sshd[2212]: Failed password for bob from 192.0.2.107 port 63913 ssh2
+Oct 10 00:10:09 lab-linux sshd[2213]: Failed password for root from 192.0.2.99 port 50009 ssh2
+Oct 10 00:10:10 lab-linux sshd[2214]: Failed password for root from 192.0.2.99 port 50010 ssh2
+Oct 10 00:10:11 lab-linux sshd[2215]: Failed password for root from 192.0.2.99 port 50011 ssh2
+Oct 10 00:10:12 lab-linux sshd[2216]: Failed password for bob from 192.0.2.230 port 42968 ssh2
+Oct 10 00:10:12 lab-linux sshd[2217]: Failed password for root from 192.0.2.99 port 50012 ssh2
+Oct 10 00:10:13 lab-linux sshd[2218]: Failed password for root from 192.0.2.99 port 50013 ssh2
+Oct 10 00:10:14 lab-linux sshd[2219]: Failed password for root from 192.0.2.99 port 50014 ssh2
+Oct 10 00:10:15 lab-linux sshd[2220]: pam_unix(sshd:session): session opened for user svc-backup(uid=1001) by (uid=0)
+Oct 10 00:10:15 lab-linux sshd[2221]: Failed password for root from 192.0.2.99 port 50015 ssh2
+Oct 10 00:10:16 lab-linux sshd[2222]: Failed password for root from 192.0.2.99 port 50016 ssh2
+Oct 10 00:10:17 lab-linux sshd[2223]: Failed password for root from 192.0.2.99 port 50017 ssh2
+Oct 10 00:10:18 lab-linux sshd[2224]: Accepted publickey for root from 198.51.100.228 port 43847 ssh2
+Oct 10 00:10:18 lab-linux sshd[2225]: Failed password for root from 192.0.2.99 port 50018 ssh2
+Oct 10 00:10:19 lab-linux sshd[2226]: Failed password for root from 192.0.2.99 port 50019 ssh2
+Oct 10 00:10:20 lab-linux sshd[2227]: Failed password for root from 192.0.2.99 port 50020 ssh2
+Oct 10 00:10:21 lab-linux sshd[2228]: pam_unix(sshd:session): session opened for user alice(uid=1001) by (uid=0)
+Oct 10 00:10:21 lab-linux sshd[2229]: Failed password for root from 192.0.2.99 port 50021 ssh2
+Oct 10 00:10:22 lab-linux sshd[2230]: Failed password for root from 192.0.2.99 port 50022 ssh2
+Oct 10 00:10:23 lab-linux sshd[2231]: Failed password for root from 192.0.2.99 port 50023 ssh2
+Oct 10 00:10:24 lab-linux sshd[2232]: Accepted publickey for root from 198.51.100.11 port 62233 ssh2
+Oct 10 00:10:24 lab-linux sshd[2233]: Failed password for root from 192.0.2.99 port 50024 ssh2
+Oct 10 00:10:25 lab-linux sshd[2234]: Failed password for root from 192.0.2.99 port 50025 ssh2
+Oct 10 00:10:26 lab-linux sshd[2235]: Failed password for root from 192.0.2.99 port 50026 ssh2
+Oct 10 00:10:27 lab-linux sshd[2236]: Failed password for invalid user admin from 192.0.2.217 port 32445 ssh2
+Oct 10 00:10:27 lab-linux sshd[2237]: Failed password for root from 192.0.2.99 port 50027 ssh2
+Oct 10 00:10:28 lab-linux sshd[2238]: Failed password for root from 192.0.2.99 port 50028 ssh2
+Oct 10 00:10:29 lab-linux sshd[2239]: Failed password for root from 192.0.2.99 port 50029 ssh2
+Oct 10 00:10:30 lab-linux sshd[2240]: Failed password for svc-backup from 192.0.2.50 port 21362 ssh2
+Oct 10 00:10:30 lab-linux sshd[2241]: Failed password for root from 192.0.2.99 port 50030 ssh2
+Oct 10 00:10:31 lab-linux sshd[2242]: Failed password for root from 192.0.2.99 port 50031 ssh2
+Oct 10 00:10:32 lab-linux sshd[2243]: Failed password for root from 192.0.2.99 port 50032 ssh2
+Oct 10 00:10:33 lab-linux sshd[2244]: pam_unix(sshd:session): session opened for user bob(uid=1001) by (uid=0)
+Oct 10 00:10:33 lab-linux sshd[2245]: Failed password for root from 192.0.2.99 port 50033 ssh2
+Oct 10 00:10:34 lab-linux sshd[2246]: Failed password for root from 192.0.2.99 port 50034 ssh2
+Oct 10 00:10:35 lab-linux sshd[2247]: Failed password for root from 192.0.2.99 port 50035 ssh2
+Oct 10 00:10:36 lab-linux sshd[2248]: Failed password for svc-backup from 192.0.2.16 port 2641 ssh2
+Oct 10 00:10:36 lab-linux sshd[2249]: Failed password for root from 192.0.2.99 port 50036 ssh2
+Oct 10 00:10:37 lab-linux sshd[2250]: Failed password for root from 192.0.2.99 port 50037 ssh2
+Oct 10 00:10:38 lab-linux sshd[2251]: Failed password for root from 192.0.2.99 port 50038 ssh2
+Oct 10 00:10:39 lab-linux sshd[2252]: Accepted publickey for svc-backup from 198.51.100.7 port 30407 ssh2
+Oct 10 00:10:39 lab-linux sshd[2253]: Failed password for root from 192.0.2.99 port 50039 ssh2
+Oct 10 00:10:41 lab-linux sshd[2254]: Accepted publickey for root from 192.0.2.99 port 50041 ssh2
+Oct 10 00:10:42 lab-linux sshd[2255]: Accepted publickey for root from 198.51.100.89 port 41772 ssh2
+Oct 10 00:10:45 lab-linux sshd[2256]: Accepted publickey for svc-backup from 198.51.100.14 port 53533 ssh2
+Oct 10 00:10:48 lab-linux sshd[2257]: Accepted publickey for alice from 198.51.100.227 port 29754 ssh2
+Oct 10 00:10:51 lab-linux sudo:    root : TTY=pts/0 ; PWD=/home/root ; USER=root ; COMMAND=/usr/bin/apt update
+Oct 10 00:10:54 lab-linux sshd[2259]: Failed password for alice from 192.0.2.248 port 11072 ssh2
+Oct 10 00:10:57 lab-linux sshd[2260]: pam_unix(sshd:session): session opened for user root(uid=1001) by (uid=0)
+Oct 10 00:11:00 lab-linux sshd[2261]: Invalid user admin from 192.0.2.188 port 48376
+Oct 10 00:11:03 lab-linux sshd[2262]: Accepted publickey for bob from 198.51.100.37 port 50969 ssh2
+Oct 10 00:11:06 lab-linux sshd[2263]: pam_unix(sshd:session): session opened for user alice(uid=1001) by (uid=0)
+Oct 10 00:11:09 lab-linux sshd[2264]: Failed password for bob from 192.0.2.11 port 3908 ssh2
+Oct 10 00:11:12 lab-linux sshd[2265]: Accepted publickey for bob from 198.51.100.50 port 28442 ssh2
+Oct 10 00:11:15 lab-linux sshd[2266]: Accepted publickey for root from 198.51.100.205 port 55151 ssh2
+Oct 10 00:11:18 lab-linux sshd[2267]: pam_unix(sshd:session): session opened for user root(uid=1001) by (uid=0)
+Oct 10 00:11:21 lab-linux sshd[2268]: Failed password for bob from 192.0.2.1 port 5364 ssh2
+Oct 10 00:11:24 lab-linux sshd[2269]: Failed password for alice from 192.0.2.68 port 48684 ssh2
+Oct 10 00:11:27 lab-linux sshd[2270]: Accepted publickey for alice from 198.51.100.57 port 31714 ssh2
+Oct 10 00:11:30 lab-linux sshd[2271]: pam_unix(sshd:session): session opened for user bob(uid=1001) by (uid=0)
+Oct 10 00:11:33 lab-linux sshd[2272]: Accepted publickey for alice from 198.51.100.172 port 31144 ssh2
+Oct 10 00:11:36 lab-linux sudo:    svc-backup : TTY=pts/0 ; PWD=/home/svc-backup ; USER=root ; COMMAND=/usr/bin/apt update
+Oct 10 00:11:39 lab-linux sshd[2274]: Failed password for invalid user admin from 192.0.2.218 port 31755 ssh2
+Oct 10 00:11:42 lab-linux sshd[2275]: Failed password for invalid user admin from 192.0.2.67 port 38841 ssh2
+Oct 10 00:11:45 lab-linux sshd[2276]: Accepted publickey for svc-backup from 198.51.100.162 port 44601 ssh2
+Oct 10 00:11:48 lab-linux sshd[2277]: Accepted publickey for bob from 198.51.100.171 port 45716 ssh2
+Oct 10 00:11:51 lab-linux sudo:    svc-backup : TTY=pts/0 ; PWD=/home/svc-backup ; USER=root ; COMMAND=/usr/bin/apt update
+Oct 10 00:11:54 lab-linux sudo:    bob : TTY=pts/0 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/bin/apt update
+Oct 10 00:11:57 lab-linux sshd[2280]: Failed password for root from 192.0.2.70 port 22529 ssh2
+Oct 10 00:12:00 lab-linux sshd[2281]: pam_unix(sshd:session): session opened for user svc-backup(uid=1001) by (uid=0)
+Oct 10 00:12:03 lab-linux sshd[2282]: Invalid user admin from 192.0.2.104 port 4385
+Oct 10 00:12:06 lab-linux sshd[2283]: Failed password for invalid user admin from 192.0.2.77 port 53562 ssh2
+Oct 10 00:12:09 lab-linux sshd[2284]: pam_unix(sshd:session): session opened for user alice(uid=1001) by (uid=0)
+Oct 10 00:12:12 lab-linux sshd[2285]: Accepted publickey for bob from 198.51.100.226 port 63688 ssh2
+Oct 10 00:12:15 lab-linux sshd[2286]: Failed password for bob from 192.0.2.238 port 7485 ssh2
+Oct 10 00:12:18 lab-linux sshd[2287]: Invalid user admin from 192.0.2.130 port 24813
+Oct 10 00:12:21 lab-linux sshd[2288]: Accepted publickey for root from 198.51.100.108 port 38154 ssh2
+Oct 10 00:12:24 lab-linux sshd[2289]: Accepted publickey for alice from 198.51.100.63 port 11670 ssh2
+Oct 10 00:12:27 lab-linux sshd[2290]: Accepted publickey for alice from 198.51.100.199 port 21599 ssh2
+Oct 10 00:12:30 lab-linux sshd[2291]: pam_unix(sshd:session): session opened for user alice(uid=1001) by (uid=0)
+Oct 10 00:12:33 lab-linux sudo:    bob : TTY=pts/0 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/bin/apt update
+Oct 10 00:12:36 lab-linux sshd[2293]: Failed password for invalid user admin from 192.0.2.86 port 62470 ssh2
+Oct 10 00:12:39 lab-linux sshd[2294]: Accepted publickey for svc-backup from 198.51.100.61 port 32908 ssh2
+Oct 10 00:12:42 lab-linux sshd[2295]: pam_unix(sshd:session): session opened for user root(uid=1001) by (uid=0)
+Oct 10 00:12:45 lab-linux sshd[2296]: Accepted publickey for bob from 198.51.100.104 port 29211 ssh2
+Oct 10 00:12:48 lab-linux sudo:    svc-backup : TTY=pts/0 ; PWD=/home/svc-backup ; USER=root ; COMMAND=/usr/bin/apt update
+Oct 10 00:12:51 lab-linux sudo:    svc-backup : TTY=pts/0 ; PWD=/home/svc-backup ; USER=root ; COMMAND=/usr/bin/apt update
+Oct 10 00:12:54 lab-linux sshd[2299]: Accepted publickey for root from 198.51.100.219 port 6455 ssh2
+Oct 10 00:12:57 lab-linux sshd[2300]: Failed password for alice from 192.0.2.204 port 49352 ssh2
+Oct 10 00:13:00 lab-linux sshd[2301]: Failed password for root from 192.0.2.127 port 59782 ssh2
+Oct 10 00:13:03 lab-linux sshd[2302]: Failed password for bob from 192.0.2.254 port 4389 ssh2
+Oct 10 00:13:06 lab-linux sshd[2303]: Failed password for bob from 192.0.2.9 port 9771 ssh2
+Oct 10 00:13:09 lab-linux sshd[2304]: Failed password for svc-backup from 192.0.2.174 port 45959 ssh2
+Oct 10 00:13:12 lab-linux sshd[2305]: pam_unix(sshd:session): session opened for user svc-backup(uid=1001) by (uid=0)
+Oct 10 00:13:15 lab-linux sshd[2306]: Failed password for bob from 192.0.2.229 port 21324 ssh2
+Oct 10 00:13:18 lab-linux sshd[2307]: Accepted publickey for alice from 198.51.100.150 port 6420 ssh2
+Oct 10 00:13:21 lab-linux sshd[2308]: Failed password for invalid user admin from 192.0.2.158 port 1037 ssh2
+Oct 10 00:13:24 lab-linux sudo:    bob : TTY=pts/0 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/bin/apt update
+Oct 10 00:13:27 lab-linux sshd[2310]: pam_unix(sshd:session): session opened for user root(uid=1001) by (uid=0)
+Oct 10 00:13:30 lab-linux sshd[2311]: Accepted publickey for alice from 198.51.100.213 port 41180 ssh2
+Oct 10 00:13:33 lab-linux sshd[2312]: Failed password for alice from 192.0.2.119 port 40749 ssh2
+Oct 10 00:13:36 lab-linux sshd[2313]: pam_unix(sshd:session): session opened for user bob(uid=1001) by (uid=0)
+Oct 10 00:13:39 lab-linux sshd[2314]: Invalid user admin from 192.0.2.25 port 33557
+Oct 10 00:13:42 lab-linux sshd[2315]: Accepted publickey for svc-backup from 198.51.100.9 port 26805 ssh2
+Oct 10 00:13:45 lab-linux sshd[2316]: pam_unix(sshd:session): session opened for user bob(uid=1001) by (uid=0)
+Oct 10 00:13:48 lab-linux sudo:    svc-backup : TTY=pts/0 ; PWD=/home/svc-backup ; USER=root ; COMMAND=/usr/bin/apt update
+Oct 10 00:13:51 lab-linux sshd[2318]: Accepted publickey for root from 198.51.100.108 port 53909 ssh2
+Oct 10 00:13:54 lab-linux sshd[2319]: pam_unix(sshd:session): session opened for user svc-backup(uid=1001) by (uid=0)
+Oct 10 00:13:57 lab-linux sshd[2320]: Failed password for root from 192.0.2.39 port 47111 ssh2
+Oct 10 00:14:00 lab-linux sshd[2321]: Failed password for alice from 192.0.2.16 port 39538 ssh2
+Oct 10 00:14:03 lab-linux sshd[2322]: pam_unix(sshd:session): session opened for user bob(uid=1001) by (uid=0)
+Oct 10 00:14:06 lab-linux sshd[2323]: Failed password for alice from 192.0.2.73 port 51510 ssh2
+Oct 10 00:14:09 lab-linux sshd[2324]: Accepted publickey for svc-backup from 198.51.100.149 port 16703 ssh2
+Oct 10 00:14:12 lab-linux sshd[2325]: Invalid user admin from 192.0.2.112 port 27885
+Oct 10 00:14:15 lab-linux sshd[2326]: Failed password for svc-backup from 192.0.2.240 port 47496 ssh2
+Oct 10 00:14:18 lab-linux sshd[2327]: Failed password for root from 192.0.2.168 port 3241 ssh2
+Oct 10 00:14:21 lab-linux sshd[2328]: Accepted publickey for root from 198.51.100.50 port 23639 ssh2
+Oct 10 00:14:24 lab-linux sshd[2329]: Failed password for alice from 192.0.2.216 port 56930 ssh2
+Oct 10 00:14:27 lab-linux sudo:    root : TTY=pts/0 ; PWD=/home/root ; USER=root ; COMMAND=/usr/bin/apt update
+Oct 10 00:14:30 lab-linux sshd[2331]: Accepted publickey for root from 198.51.100.201 port 47498 ssh2
+Oct 10 00:14:33 lab-linux sshd[2332]: pam_unix(sshd:session): session opened for user root(uid=1001) by (uid=0)
+Oct 10 00:14:36 lab-linux sshd[2333]: Accepted publickey for root from 198.51.100.169 port 21653 ssh2
+Oct 10 00:14:39 lab-linux sshd[2334]: Failed password for invalid user admin from 192.0.2.193 port 38154 ssh2
+Oct 10 00:14:42 lab-linux sshd[2335]: pam_unix(sshd:session): session opened for user bob(uid=1001) by (uid=0)
+Oct 10 00:14:45 lab-linux sudo:    svc-backup : TTY=pts/0 ; PWD=/home/svc-backup ; USER=root ; COMMAND=/usr/bin/apt update
+Oct 10 00:14:48 lab-linux sshd[2337]: Accepted publickey for svc-backup from 198.51.100.38 port 3778 ssh2
+Oct 10 00:14:51 lab-linux sshd[2338]: pam_unix(sshd:session): session opened for user bob(uid=1001) by (uid=0)
+Oct 10 00:14:54 lab-linux sshd[2339]: Accepted publickey for svc-backup from 198.51.100.233 port 14279 ssh2
+Oct 10 00:14:57 lab-linux sshd[2340]: Invalid user admin from 192.0.2.107 port 3543
+Oct 10 00:15:00 lab-linux sudo:    svc-backup : TTY=pts/0 ; PWD=/home/svc-backup ; USER=root ; COMMAND=/usr/bin/apt update
+Oct 10 00:15:03 lab-linux sudo:    svc-backup : TTY=pts/0 ; PWD=/home/svc-backup ; USER=root ; COMMAND=/usr/bin/apt update
+Oct 10 00:15:06 lab-linux sshd[2343]: Failed password for bob from 192.0.2.55 port 10710 ssh2
+Oct 10 00:15:09 lab-linux sshd[2344]: Accepted publickey for svc-backup from 198.51.100.136 port 26628 ssh2
+Oct 10 00:15:12 lab-linux sshd[2345]: pam_unix(sshd:session): session opened for user bob(uid=1001) by (uid=0)
+Oct 10 00:15:15 lab-linux sshd[2346]: pam_unix(sshd:session): session opened for user alice(uid=1001) by (uid=0)
+Oct 10 00:15:18 lab-linux sshd[2347]: Invalid user admin from 192.0.2.141 port 20042
+Oct 10 00:15:21 lab-linux sshd[2348]: Accepted publickey for root from 198.51.100.12 port 19668 ssh2
+Oct 10 00:15:24 lab-linux sshd[2349]: Accepted publickey for root from 198.51.100.151 port 42117 ssh2
+Oct 10 00:15:27 lab-linux sshd[2350]: Failed password for invalid user admin from 192.0.2.17 port 32121 ssh2
+Oct 10 00:15:30 lab-linux sudo:    root : TTY=pts/0 ; PWD=/home/root ; USER=root ; COMMAND=/usr/bin/apt update
+Oct 10 00:15:33 lab-linux sshd[2352]: pam_unix(sshd:session): session opened for user bob(uid=1001) by (uid=0)
+Oct 10 00:15:36 lab-linux sudo:    bob : TTY=pts/0 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/bin/apt update
+Oct 10 00:15:39 lab-linux sshd[2354]: Accepted publickey for alice from 198.51.100.210 port 16062 ssh2
+Oct 10 00:15:42 lab-linux sshd[2355]: Invalid user admin from 192.0.2.149 port 17679
+Oct 10 00:15:45 lab-linux sshd[2356]: Accepted publickey for alice from 198.51.100.136 port 16046 ssh2
+Oct 10 00:15:48 lab-linux sshd[2357]: Failed password for root from 192.0.2.62 port 27040 ssh2
+Oct 10 00:15:51 lab-linux sshd[2358]: Failed password for alice from 192.0.2.246 port 6011 ssh2
+Oct 10 00:15:54 lab-linux sudo:    svc-backup : TTY=pts/0 ; PWD=/home/svc-backup ; USER=root ; COMMAND=/usr/bin/apt update
+Oct 10 00:15:57 lab-linux sshd[2360]: pam_unix(sshd:session): session opened for user root(uid=1001) by (uid=0)
+Oct 10 00:16:00 lab-linux sshd[2361]: pam_unix(sshd:session): session opened for user svc-backup(uid=1001) by (uid=0)
+Oct 10 00:16:03 lab-linux sshd[2362]: Invalid user admin from 192.0.2.128 port 39046
+Oct 10 00:16:06 lab-linux sshd[2363]: Failed password for svc-backup from 192.0.2.200 port 8617 ssh2
+Oct 10 00:16:09 lab-linux sshd[2364]: pam_unix(sshd:session): session opened for user root(uid=1001) by (uid=0)
+Oct 10 00:16:12 lab-linux sshd[2365]: Accepted publickey for bob from 198.51.100.4 port 45921 ssh2
+Oct 10 00:16:15 lab-linux sshd[2366]: Accepted publickey for svc-backup from 198.51.100.166 port 17119 ssh2
+Oct 10 00:16:18 lab-linux sshd[2367]: pam_unix(sshd:session): session opened for user alice(uid=1001) by (uid=0)
+Oct 10 00:16:21 lab-linux sshd[2368]: pam_unix(sshd:session): session opened for user svc-backup(uid=1001) by (uid=0)
+Oct 10 00:16:24 lab-linux sshd[2369]: Failed password for svc-backup from 192.0.2.107 port 11631 ssh2
+Oct 10 00:16:27 lab-linux sshd[2370]: pam_unix(sshd:session): session opened for user bob(uid=1001) by (uid=0)
+Oct 10 00:16:30 lab-linux sshd[2371]: Accepted publickey for svc-backup from 198.51.100.80 port 36565 ssh2
+Oct 10 00:16:33 lab-linux sshd[2372]: Invalid user admin from 192.0.2.164 port 5519
+Oct 10 00:16:36 lab-linux sshd[2373]: Failed password for bob from 192.0.2.224 port 8982 ssh2
+Oct 10 00:16:39 lab-linux sshd[2374]: pam_unix(sshd:session): session opened for user alice(uid=1001) by (uid=0)
+Oct 10 00:16:42 lab-linux sshd[2375]: Failed password for svc-backup from 192.0.2.248 port 12753 ssh2
+Oct 10 00:16:45 lab-linux sshd[2376]: Failed password for root from 192.0.2.87 port 8982 ssh2
+Oct 10 00:16:48 lab-linux sshd[2377]: Accepted publickey for root from 198.51.100.131 port 9025 ssh2
+Oct 10 00:16:51 lab-linux sshd[2378]: Accepted publickey for svc-backup from 198.51.100.202 port 6481 ssh2
+Oct 10 00:16:54 lab-linux sshd[2379]: Accepted publickey for alice from 198.51.100.91 port 12584 ssh2
+Oct 10 00:16:57 lab-linux sshd[2380]: Accepted publickey for bob from 198.51.100.140 port 62951 ssh2
+Oct 10 00:17:00 lab-linux sshd[2381]: Failed password for alice from 192.0.2.234 port 60916 ssh2
+Oct 10 00:17:03 lab-linux sshd[2382]: Accepted publickey for alice from 198.51.100.254 port 5181 ssh2
+Oct 10 00:17:06 lab-linux sshd[2383]: Failed password for svc-backup from 192.0.2.42 port 35239 ssh2
+Oct 10 00:17:09 lab-linux sudo:    bob : TTY=pts/0 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/bin/apt update
+Oct 10 00:17:12 lab-linux sudo:    svc-backup : TTY=pts/0 ; PWD=/home/svc-backup ; USER=root ; COMMAND=/usr/bin/apt update
+Oct 10 00:17:15 lab-linux sshd[2386]: pam_unix(sshd:session): session opened for user root(uid=1001) by (uid=0)
+Oct 10 00:17:18 lab-linux sshd[2387]: Accepted publickey for root from 198.51.100.55 port 12002 ssh2
+Oct 10 00:17:21 lab-linux sshd[2388]: Failed password for root from 192.0.2.199 port 39451 ssh2
+Oct 10 00:17:24 lab-linux sshd[2389]: Invalid user admin from 192.0.2.18 port 64996
+Oct 10 00:17:27 lab-linux sshd[2390]: Failed password for invalid user admin from 192.0.2.59 port 55714 ssh2
+Oct 10 00:17:30 lab-linux sshd[2391]: Invalid user admin from 192.0.2.234 port 52192
+Oct 10 00:17:33 lab-linux sshd[2392]: Accepted publickey for root from 198.51.100.100 port 22140 ssh2
+Oct 10 00:17:36 lab-linux sshd[2393]: Accepted publickey for bob from 198.51.100.231 port 3774 ssh2
+Oct 10 00:17:39 lab-linux sshd[2394]: Failed password for bob from 192.0.2.1 port 38441 ssh2
+Oct 10 00:17:42 lab-linux sshd[2395]: Accepted publickey for svc-backup from 198.51.100.167 port 23222 ssh2
+Oct 10 00:17:45 lab-linux sshd[2396]: Accepted publickey for alice from 198.51.100.249 port 21678 ssh2
+Oct 10 00:17:48 lab-linux sshd[2397]: pam_unix(sshd:session): session opened for user alice(uid=1001) by (uid=0)
+Oct 10 00:17:51 lab-linux sshd[2398]: Failed password for alice from 192.0.2.152 port 9921 ssh2
+Oct 10 00:17:54 lab-linux sshd[2399]: Accepted publickey for svc-backup from 198.51.100.31 port 41980 ssh2
+Oct 10 00:17:57 lab-linux sudo:    svc-backup : TTY=pts/0 ; PWD=/home/svc-backup ; USER=root ; COMMAND=/usr/bin/apt update
+Oct 10 00:18:00 lab-linux sshd[2401]: Accepted publickey for root from 198.51.100.76 port 3575 ssh2
+Oct 10 00:18:03 lab-linux sshd[2402]: pam_unix(sshd:session): session opened for user alice(uid=1001) by (uid=0)
+Oct 10 00:18:06 lab-linux sshd[2403]: Invalid user admin from 192.0.2.36 port 46630
+Oct 10 00:18:09 lab-linux sshd[2404]: Failed password for root from 192.0.2.40 port 19417 ssh2
+Oct 10 00:18:12 lab-linux sshd[2405]: Accepted publickey for root from 198.51.100.252 port 5899 ssh2
+Oct 10 00:18:15 lab-linux sshd[2406]: Failed password for invalid user admin from 192.0.2.94 port 5946 ssh2
+Oct 10 00:18:18 lab-linux sshd[2407]: Accepted publickey for svc-backup from 198.51.100.105 port 2513 ssh2
+Oct 10 00:18:21 lab-linux sshd[2408]: Failed password for svc-backup from 192.0.2.84 port 13133 ssh2
+Oct 10 00:18:24 lab-linux sshd[2409]: Invalid user admin from 192.0.2.223 port 10030
+Oct 10 00:18:27 lab-linux sshd[2410]: pam_unix(sshd:session): session opened for user alice(uid=1001) by (uid=0)
+Oct 10 00:18:30 lab-linux sshd[2411]: Failed password for svc-backup from 192.0.2.197 port 22898 ssh2
+Oct 10 00:18:33 lab-linux sshd[2412]: Accepted publickey for alice from 198.51.100.47 port 38799 ssh2
+Oct 10 00:18:36 lab-linux sshd[2413]: Failed password for alice from 192.0.2.60 port 4240 ssh2
+Oct 10 00:18:39 lab-linux sshd[2414]: Failed password for alice from 192.0.2.208 port 47738 ssh2
+Oct 10 00:18:42 lab-linux sshd[2415]: Accepted publickey for svc-backup from 198.51.100.233 port 37223 ssh2
+Oct 10 00:18:45 lab-linux sshd[2416]: Invalid user admin from 192.0.2.26 port 59700
+Oct 10 00:18:48 lab-linux sshd[2417]: Accepted publickey for alice from 198.51.100.80 port 61240 ssh2
+Oct 10 00:18:51 lab-linux sshd[2418]: pam_unix(sshd:session): session opened for user alice(uid=1001) by (uid=0)
+Oct 10 00:18:54 lab-linux sshd[2419]: Failed password for alice from 192.0.2.36 port 5529 ssh2
+Oct 10 00:18:57 lab-linux sshd[2420]: Failed password for alice from 192.0.2.28 port 59442 ssh2
+Oct 10 00:19:00 lab-linux sshd[2421]: Accepted publickey for root from 198.51.100.208 port 24690 ssh2
+Oct 10 00:19:03 lab-linux sshd[2422]: Accepted publickey for alice from 198.51.100.68 port 11431 ssh2
+Oct 10 00:19:06 lab-linux sshd[2423]: Accepted publickey for bob from 198.51.100.21 port 22917 ssh2
+Oct 10 00:19:09 lab-linux sshd[2424]: Failed password for alice from 192.0.2.162 port 54255 ssh2
+Oct 10 00:19:12 lab-linux sshd[2425]: Failed password for bob from 192.0.2.187 port 47434 ssh2
+Oct 10 00:19:15 lab-linux sshd[2426]: Failed password for bob from 192.0.2.254 port 27756 ssh2
+Oct 10 00:19:18 lab-linux sshd[2427]: Failed password for svc-backup from 192.0.2.148 port 53102 ssh2
+Oct 10 00:19:21 lab-linux sshd[2428]: Invalid user admin from 192.0.2.216 port 13315
+Oct 10 00:19:24 lab-linux sshd[2429]: Accepted publickey for bob from 198.51.100.16 port 29186 ssh2
+Oct 10 00:19:27 lab-linux sshd[2430]: Failed password for root from 192.0.2.50 port 55092 ssh2
+Oct 10 00:19:30 lab-linux sshd[2431]: Accepted publickey for svc-backup from 198.51.100.35 port 27534 ssh2
+Oct 10 00:19:33 lab-linux sshd[2432]: Failed password for invalid user admin from 192.0.2.106 port 60710 ssh2
+Oct 10 00:19:36 lab-linux sshd[2433]: Accepted publickey for svc-backup from 198.51.100.64 port 41419 ssh2
+Oct 10 00:19:39 lab-linux sshd[2434]: pam_unix(sshd:session): session opened for user alice(uid=1001) by (uid=0)
+Oct 10 00:19:42 lab-linux sshd[2435]: Failed password for root from 192.0.2.1 port 65106 ssh2
+Oct 10 00:19:45 lab-linux sshd[2436]: Failed password for bob from 192.0.2.192 port 17600 ssh2
+Oct 10 00:19:48 lab-linux sshd[2437]: Invalid user admin from 192.0.2.148 port 13106
+Oct 10 00:19:51 lab-linux sudo:    alice : TTY=pts/0 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/apt update
+Oct 10 00:19:54 lab-linux sshd[2439]: Failed password for alice from 192.0.2.60 port 17407 ssh2
+Oct 10 00:19:57 lab-linux sshd[2440]: Invalid user admin from 192.0.2.188 port 5755
+Oct 10 00:20:00 lab-linux sshd[2441]: Invalid user admin from 192.0.2.35 port 64280
+Oct 10 00:20:03 lab-linux sshd[2442]: Failed password for alice from 192.0.2.148 port 1208 ssh2
+Oct 10 00:20:06 lab-linux sshd[2443]: Invalid user admin from 192.0.2.184 port 8283
+Oct 10 00:20:09 lab-linux sudo:    alice : TTY=pts/0 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/apt update
+Oct 10 00:20:12 lab-linux sshd[2445]: Accepted publickey for root from 198.51.100.37 port 10656 ssh2
+Oct 10 00:20:15 lab-linux sshd[2446]: Invalid user admin from 192.0.2.202 port 9100
+Oct 10 00:20:18 lab-linux sshd[2447]: pam_unix(sshd:session): session opened for user svc-backup(uid=1001) by (uid=0)
+Oct 10 00:20:21 lab-linux sshd[2448]: Accepted publickey for svc-backup from 198.51.100.114 port 44482 ssh2
+Oct 10 00:20:24 lab-linux sshd[2449]: Failed password for bob from 192.0.2.53 port 26531 ssh2
+Oct 10 00:20:27 lab-linux sshd[2450]: Accepted publickey for bob from 198.51.100.126 port 33065 ssh2
+Oct 10 00:20:30 lab-linux sshd[2451]: pam_unix(sshd:session): session opened for user root(uid=1001) by (uid=0)
+Oct 10 00:20:33 lab-linux sshd[2452]: Failed password for root from 192.0.2.41 port 5048 ssh2
+Oct 10 00:20:36 lab-linux sudo:    alice : TTY=pts/0 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/apt update
+Oct 10 00:20:39 lab-linux sshd[2454]: Accepted publickey for bob from 198.51.100.106 port 8260 ssh2
+Oct 10 00:20:42 lab-linux sshd[2455]: pam_unix(sshd:session): session opened for user bob(uid=1001) by (uid=0)
+Oct 10 00:20:45 lab-linux sshd[2456]: Failed password for alice from 192.0.2.122 port 52515 ssh2
+Oct 10 00:20:48 lab-linux sudo:    alice : TTY=pts/0 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/apt update
+Oct 10 00:20:51 lab-linux sshd[2458]: Accepted publickey for bob from 198.51.100.116 port 14191 ssh2
+Oct 10 00:20:54 lab-linux sshd[2459]: Invalid user admin from 192.0.2.71 port 56039
+Oct 10 00:20:57 lab-linux sshd[2460]: Accepted publickey for root from 198.51.100.70 port 11539 ssh2
+Oct 10 00:21:00 lab-linux sshd[2461]: Accepted publickey for root from 198.51.100.232 port 9772 ssh2
+Oct 10 00:21:03 lab-linux sshd[2462]: Failed password for bob from 192.0.2.166 port 32868 ssh2
+Oct 10 00:21:06 lab-linux sshd[2463]: Accepted publickey for bob from 198.51.100.29 port 18566 ssh2
+Oct 10 00:21:09 lab-linux sshd[2464]: Invalid user admin from 192.0.2.134 port 17723
+Oct 10 00:21:12 lab-linux sshd[2465]: Invalid user admin from 192.0.2.70 port 57516
+Oct 10 00:21:15 lab-linux sshd[2466]: Invalid user admin from 192.0.2.205 port 21354
+Oct 10 00:21:18 lab-linux sshd[2467]: Invalid user admin from 192.0.2.6 port 5150
+Oct 10 00:21:21 lab-linux sshd[2468]: Accepted publickey for alice from 198.51.100.62 port 59926 ssh2
+Oct 10 00:21:24 lab-linux sshd[2469]: Failed password for bob from 192.0.2.194 port 63786 ssh2
+Oct 10 00:21:27 lab-linux sshd[2470]: Invalid user admin from 192.0.2.143 port 57112
+Oct 10 00:21:30 lab-linux sshd[2471]: Accepted publickey for bob from 198.51.100.161 port 33597 ssh2
+Oct 10 00:21:33 lab-linux sshd[2472]: Failed password for invalid user admin from 192.0.2.1 port 10795 ssh2
+Oct 10 00:21:36 lab-linux sshd[2473]: Failed password for invalid user admin from 192.0.2.84 port 51387 ssh2
+Oct 10 00:21:39 lab-linux sshd[2474]: Invalid user admin from 192.0.2.142 port 28531
+Oct 10 00:21:42 lab-linux sshd[2475]: Accepted publickey for alice from 198.51.100.124 port 13699 ssh2
+Oct 10 00:21:45 lab-linux sshd[2476]: Failed password for svc-backup from 192.0.2.185 port 51104 ssh2
+Oct 10 00:21:48 lab-linux sshd[2477]: Accepted publickey for svc-backup from 198.51.100.151 port 14096 ssh2
+Oct 10 00:21:51 lab-linux sshd[2478]: Accepted publickey for svc-backup from 198.51.100.25 port 25922 ssh2
+Oct 10 00:21:54 lab-linux sshd[2479]: Accepted publickey for bob from 198.51.100.228 port 17072 ssh2
+Oct 10 00:21:57 lab-linux sshd[2480]: Accepted publickey for svc-backup from 198.51.100.92 port 31916 ssh2
+Oct 10 00:22:00 lab-linux sudo:    svc-backup : TTY=pts/0 ; PWD=/home/svc-backup ; USER=root ; COMMAND=/usr/bin/apt update
+Oct 10 00:22:03 lab-linux sshd[2482]: Accepted publickey for alice from 198.51.100.177 port 6022 ssh2
+Oct 10 00:22:06 lab-linux sshd[2483]: Failed password for bob from 192.0.2.60 port 27941 ssh2
+Oct 10 00:22:09 lab-linux sshd[2484]: pam_unix(sshd:session): session opened for user bob(uid=1001) by (uid=0)
+Oct 10 00:22:12 lab-linux sshd[2485]: Accepted publickey for alice from 198.51.100.27 port 45651 ssh2
+Oct 10 00:22:15 lab-linux sshd[2486]: Failed password for invalid user admin from 192.0.2.141 port 29943 ssh2
+Oct 10 00:22:18 lab-linux sshd[2487]: Invalid user admin from 192.0.2.57 port 49391
+Oct 10 00:22:21 lab-linux sshd[2488]: Failed password for svc-backup from 192.0.2.25 port 3423 ssh2
+Oct 10 00:22:24 lab-linux sshd[2489]: Failed password for root from 192.0.2.31 port 19401 ssh2
+Oct 10 00:22:27 lab-linux sshd[2490]: Accepted publickey for root from 198.51.100.229 port 14726 ssh2
+Oct 10 00:22:30 lab-linux sshd[2491]: Failed password for bob from 192.0.2.157 port 8808 ssh2
+Oct 10 00:22:33 lab-linux sshd[2492]: Failed password for svc-backup from 192.0.2.203 port 40235 ssh2
+Oct 10 00:22:36 lab-linux sshd[2493]: Accepted publickey for bob from 198.51.100.12 port 32219 ssh2
+Oct 10 00:22:39 lab-linux sshd[2494]: Invalid user admin from 192.0.2.139 port 11970
+Oct 10 00:22:42 lab-linux sshd[2495]: Invalid user admin from 192.0.2.179 port 48777
+Oct 10 00:22:45 lab-linux sshd[2496]: Failed password for root from 192.0.2.210 port 15203 ssh2
+Oct 10 00:22:48 lab-linux sudo:    svc-backup : TTY=pts/0 ; PWD=/home/svc-backup ; USER=root ; COMMAND=/usr/bin/apt update
+Oct 10 00:22:51 lab-linux sshd[2498]: Accepted publickey for bob from 198.51.100.237 port 38751 ssh2
+Oct 10 00:22:54 lab-linux sshd[2499]: Failed password for root from 192.0.2.179 port 23893 ssh2
+Oct 10 00:22:57 lab-linux sshd[2500]: pam_unix(sshd:session): session opened for user root(uid=1001) by (uid=0)
+Oct 10 00:23:00 lab-linux sshd[2501]: Failed password for alice from 192.0.2.252 port 42128 ssh2
+Oct 10 00:23:03 lab-linux sshd[2502]: Accepted publickey for svc-backup from 198.51.100.50 port 12300 ssh2
+Oct 10 00:23:06 lab-linux sudo:    bob : TTY=pts/0 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/bin/apt update
+Oct 10 00:23:09 lab-linux sshd[2504]: Invalid user admin from 192.0.2.51 port 55240
+Oct 10 00:23:12 lab-linux sshd[2505]: Failed password for bob from 192.0.2.76 port 31226 ssh2
+Oct 10 00:23:15 lab-linux sshd[2506]: Failed password for root from 192.0.2.58 port 41567 ssh2
+Oct 10 00:23:18 lab-linux sshd[2507]: Failed password for alice from 192.0.2.186 port 60808 ssh2
+Oct 10 00:23:21 lab-linux sshd[2508]: Invalid user admin from 192.0.2.94 port 42123
+Oct 10 00:23:24 lab-linux sudo:    svc-backup : TTY=pts/0 ; PWD=/home/svc-backup ; USER=root ; COMMAND=/usr/bin/apt update
+Oct 10 00:23:27 lab-linux sshd[2510]: Accepted publickey for alice from 198.51.100.214 port 60082 ssh2
+Oct 10 00:23:30 lab-linux sshd[2511]: Failed password for root from 192.0.2.2 port 12255 ssh2
+Oct 10 00:23:33 lab-linux sshd[2512]: Accepted publickey for bob from 198.51.100.176 port 56264 ssh2
+Oct 10 00:23:36 lab-linux sshd[2513]: pam_unix(sshd:session): session opened for user alice(uid=1001) by (uid=0)
+Oct 10 00:23:39 lab-linux sshd[2514]: Failed password for alice from 192.0.2.40 port 28224 ssh2
+Oct 10 00:23:42 lab-linux sshd[2515]: Failed password for bob from 192.0.2.180 port 54278 ssh2
+Oct 10 00:23:45 lab-linux sshd[2516]: Failed password for svc-backup from 192.0.2.227 port 30715 ssh2
+Oct 10 00:23:48 lab-linux sshd[2517]: Failed password for bob from 192.0.2.245 port 30453 ssh2
+Oct 10 00:23:51 lab-linux sshd[2518]: Accepted publickey for root from 198.51.100.72 port 21715 ssh2
+Oct 10 00:23:54 lab-linux sshd[2519]: Failed password for bob from 192.0.2.238 port 49089 ssh2
+Oct 10 00:23:57 lab-linux sudo:    alice : TTY=pts/0 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/apt update
+Oct 10 00:24:00 lab-linux sshd[2521]: Failed password for root from 192.0.2.238 port 6989 ssh2
+Oct 10 00:24:03 lab-linux sshd[2522]: pam_unix(sshd:session): session opened for user alice(uid=1001) by (uid=0)
+Oct 10 00:24:06 lab-linux sshd[2523]: Failed password for alice from 192.0.2.59 port 49324 ssh2
+Oct 10 00:24:09 lab-linux sshd[2524]: Invalid user admin from 192.0.2.244 port 57199
+Oct 10 00:24:12 lab-linux sshd[2525]: Failed password for root from 192.0.2.102 port 60618 ssh2
+Oct 10 00:24:15 lab-linux sshd[2526]: Accepted publickey for bob from 198.51.100.14 port 34968 ssh2
+Oct 10 00:24:18 lab-linux sshd[2527]: Failed password for bob from 192.0.2.205 port 9309 ssh2
+Oct 10 00:24:21 lab-linux sshd[2528]: Failed password for alice from 192.0.2.131 port 57273 ssh2
+Oct 10 00:24:24 lab-linux sshd[2529]: Accepted publickey for alice from 198.51.100.62 port 36348 ssh2
+Oct 10 00:24:27 lab-linux sshd[2530]: Accepted publickey for svc-backup from 198.51.100.135 port 36253 ssh2
+Oct 10 00:24:30 lab-linux sshd[2531]: Failed password for svc-backup from 192.0.2.86 port 36997 ssh2
+Oct 10 00:24:33 lab-linux sshd[2532]: Failed password for bob from 192.0.2.12 port 29055 ssh2
+Oct 10 00:24:36 lab-linux sshd[2533]: Accepted publickey for bob from 198.51.100.36 port 53640 ssh2
+Oct 10 00:24:39 lab-linux sudo:    alice : TTY=pts/0 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/apt update
+Oct 10 00:24:42 lab-linux sshd[2535]: Accepted publickey for alice from 198.51.100.109 port 48270 ssh2
+Oct 10 00:24:45 lab-linux sshd[2536]: Accepted publickey for alice from 198.51.100.189 port 50840 ssh2
+Oct 10 00:24:48 lab-linux sshd[2537]: Accepted publickey for bob from 198.51.100.175 port 19132 ssh2
+Oct 10 00:24:51 lab-linux sshd[2538]: Failed password for invalid user admin from 192.0.2.87 port 2987 ssh2
+Oct 10 00:24:54 lab-linux sshd[2539]: Failed password for alice from 192.0.2.200 port 2814 ssh2
+Oct 10 00:24:57 lab-linux sudo:    alice : TTY=pts/0 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/apt update
+Oct 10 00:25:00 lab-linux sshd[2541]: Invalid user admin from 192.0.2.22 port 22159
+Oct 10 00:25:03 lab-linux sshd[2542]: Failed password for alice from 192.0.2.22 port 46109 ssh2
+Oct 10 00:25:06 lab-linux sshd[2543]: Failed password for alice from 192.0.2.113 port 52381 ssh2
+Oct 10 00:25:09 lab-linux sshd[2544]: pam_unix(sshd:session): session opened for user svc-backup(uid=1001) by (uid=0)
+Oct 10 00:25:12 lab-linux sshd[2545]: Accepted publickey for alice from 198.51.100.185 port 10839 ssh2
+Oct 10 00:25:15 lab-linux sshd[2546]: Failed password for invalid user admin from 192.0.2.81 port 25865 ssh2
+Oct 10 00:25:18 lab-linux sshd[2547]: Invalid user admin from 192.0.2.204 port 60940
+Oct 10 00:25:21 lab-linux sshd[2548]: Accepted publickey for svc-backup from 198.51.100.193 port 20169 ssh2
+Oct 10 00:25:24 lab-linux sshd[2549]: Failed password for alice from 192.0.2.140 port 54289 ssh2
+Oct 10 00:25:27 lab-linux sshd[2550]: Failed password for root from 192.0.2.74 port 33211 ssh2
+Oct 10 00:25:30 lab-linux sshd[2551]: Accepted publickey for alice from 198.51.100.39 port 12540 ssh2
+Oct 10 00:25:33 lab-linux sudo:    svc-backup : TTY=pts/0 ; PWD=/home/svc-backup ; USER=root ; COMMAND=/usr/bin/apt update
+Oct 10 00:25:36 lab-linux sudo:    svc-backup : TTY=pts/0 ; PWD=/home/svc-backup ; USER=root ; COMMAND=/usr/bin/apt update
+Oct 10 00:25:39 lab-linux sshd[2554]: Failed password for root from 192.0.2.120 port 2744 ssh2
+Oct 10 00:25:42 lab-linux sshd[2555]: Failed password for alice from 192.0.2.1 port 44411 ssh2
+Oct 10 00:25:45 lab-linux sshd[2556]: Failed password for bob from 192.0.2.97 port 23656 ssh2
+Oct 10 00:25:48 lab-linux sshd[2557]: Accepted publickey for alice from 198.51.100.93 port 48465 ssh2
+Oct 10 00:25:51 lab-linux sshd[2558]: Accepted publickey for bob from 198.51.100.104 port 25778 ssh2
+Oct 10 00:25:54 lab-linux sshd[2559]: Accepted publickey for bob from 198.51.100.106 port 10806 ssh2
+Oct 10 00:25:57 lab-linux sudo:    bob : TTY=pts/0 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/bin/apt update

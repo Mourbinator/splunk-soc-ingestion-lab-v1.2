@@ -1,0 +1,13 @@
+# Variante TLS (module M2, étape avancée). Renommer en .conf APRÈS avoir créé les certificats :
+#   sudo mkdir -p /etc/syslog-ng/tls && cd /etc/syslog-ng/tls
+#   sudo openssl req -x509 -newkey rsa:2048 -nodes -days 365 -subj "/CN=ubuntu-lab" \
+#        -keyout server.key -out server.crt
+# Le certificat est AUTO-SIGNÉ : acceptable en lab, pas en production (utiliser une PKI interne).
+source s_soc_tls {
+    network(ip("0.0.0.0") port(6514) transport("tls")
+            tls(key-file("/etc/syslog-ng/tls/server.key") cert-file("/etc/syslog-ng/tls/server.crt")
+                peer-verify(optional-untrusted))
+            flags(syslog-protocol));
+};
+log { source(s_soc_tls); filter(f_soc_firewall); destination(d_soc_firewall); };
+log { source(s_soc_tls); filter(f_soc_other);    destination(d_soc_unrouted); };

@@ -1,0 +1,9 @@
+ip,dest_name,dest_category,dest_priority,dest_owner
+198.51.100.10,web-prod-01,web,high,team-web
+198.51.100.20,web-prod-02,web,high,team-web
+198.51.100.21,db-prod-01,database,critical,team-data
+198.51.100.22,db-prod-02,database,critical,team-data
+198.51.100.30,dc-01,domain_controller,critical,team-infra
+198.51.100.40,vpn-gw-01,network,high,team-network
+198.51.100.50,mail-01,mail,medium,team-messaging
+198.51.100.60,dev-sandbox-01,sandbox,low,team-dev

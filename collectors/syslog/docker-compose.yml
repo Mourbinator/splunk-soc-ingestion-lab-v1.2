@@ -1,0 +1,13 @@
+# Voie OPTIONNELLE (la voie principale du lab est l'installation apt, voir docs/INSTALL-UBUNTU.md).
+# NON TESTÉ avec toutes les versions d'image : épinglez un tag précis plutôt que « latest » et alignez @version.
+services:
+  syslog-ng:
+    image: balabit/syslog-ng:latest
+    container_name: soc-lab-syslog
+    ports:
+      - "5514:5514/udp"
+      - "5514:5514/tcp"
+    volumes:
+      - ./syslog-ng.conf:/etc/syslog-ng/syslog-ng.conf:ro
+      - ./data:/var/log/soc-lab         # l'UF devra alors lire <ce dossier>/firewall/firewall.log
+    restart: unless-stopped

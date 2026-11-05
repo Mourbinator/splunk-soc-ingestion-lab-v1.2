@@ -1,0 +1,282 @@
+2026-10-10 00:00:00,378 DEBUG [auth-svc] outbound call Authorization: Bearer lab.fake.token-0000 status=200
+2026-10-10 00:00:02,841 INFO [payment-svc] request ok user=bob duration=197ms
+2026-10-10 00:00:04,747 WARN [auth-svc] slow response 961 ms
+2026-10-10 00:00:06,640 ERROR [inventory-svc] Unhandled exception processing order=ORD-1003
+java.lang.IllegalStateException: Payment gateway timeout after 3000 ms
+	at com.lab.payment.GatewayClient.charge(GatewayClient.java:142)
+	at com.lab.payment.OrderService.process(OrderService.java:88)
+	at com.lab.web.OrderController.post(OrderController.java:51)
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:186)
+2026-10-10 00:00:08,212 DEBUG [payment-svc] outbound call Authorization: Bearer lab.fake.token-0004 status=200
+2026-10-10 00:00:10,876 INFO [inventory-svc] request ok user=bob duration=13ms
+2026-10-10 00:00:12,790 ERROR [payment-svc] Unhandled exception processing order=ORD-1006
+java.lang.IllegalStateException: Payment gateway timeout after 3000 ms
+	at com.lab.payment.GatewayClient.charge(GatewayClient.java:142)
+	at com.lab.payment.OrderService.process(OrderService.java:88)
+	at com.lab.web.OrderController.post(OrderController.java:51)
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:186)
+2026-10-10 00:00:14,062 INFO [orders-svc] request ok user=bob duration=67ms
+2026-10-10 00:00:16,886 DEBUG [inventory-svc] login attempt user=alice password=P@ssw0rd-LAB from=192.0.2.136
+2026-10-10 00:00:18,127 DEBUG [auth-svc] login attempt user=alice password=P@ssw0rd-LAB from=192.0.2.188
+2026-10-10 00:00:20,264 WARN [payment-svc] slow response 2740 ms
+2026-10-10 00:00:22,510 WARN [payment-svc] slow response 2348 ms
+2026-10-10 00:00:24,735 WARN [payment-svc] slow response 1062 ms
+2026-10-10 00:00:26,409 DEBUG [orders-svc] login attempt user=alice password=P@ssw0rd-LAB from=192.0.2.173
+2026-10-10 00:00:28,067 INFO [payment-svc] request ok user=bob duration=156ms
+2026-10-10 00:00:30,743 WARN [payment-svc] slow response 2059 ms
+2026-10-10 00:00:32,417 ERROR [orders-svc] Unhandled exception processing order=ORD-1016
+java.lang.IllegalStateException: Payment gateway timeout after 3000 ms
+	at com.lab.payment.GatewayClient.charge(GatewayClient.java:142)
+	at com.lab.payment.OrderService.process(OrderService.java:88)
+	at com.lab.web.OrderController.post(OrderController.java:51)
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:186)
+2026-10-10 00:00:34,248 INFO [inventory-svc] request ok user=bob duration=71ms
+2026-10-10 00:00:36,377 ERROR [inventory-svc] Unhandled exception processing order=ORD-1018
+java.lang.IllegalStateException: Payment gateway timeout after 3000 ms
+	at com.lab.payment.GatewayClient.charge(GatewayClient.java:142)
+	at com.lab.payment.OrderService.process(OrderService.java:88)
+	at com.lab.web.OrderController.post(OrderController.java:51)
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:186)
+2026-10-10 00:00:38,317 ERROR [orders-svc] Unhandled exception processing order=ORD-1019
+java.lang.IllegalStateException: Payment gateway timeout after 3000 ms
+	at com.lab.payment.GatewayClient.charge(GatewayClient.java:142)
+	at com.lab.payment.OrderService.process(OrderService.java:88)
+	at com.lab.web.OrderController.post(OrderController.java:51)
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:186)
+2026-10-10 00:00:40,894 INFO [auth-svc] request ok user=bob duration=154ms
+2026-10-10 00:00:42,968 ERROR [inventory-svc] Unhandled exception processing order=ORD-1021
+java.lang.IllegalStateException: Payment gateway timeout after 3000 ms
+	at com.lab.payment.GatewayClient.charge(GatewayClient.java:142)
+	at com.lab.payment.OrderService.process(OrderService.java:88)
+	at com.lab.web.OrderController.post(OrderController.java:51)
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:186)
+2026-10-10 00:00:44,968 INFO [orders-svc] request ok user=bob duration=26ms
+2026-10-10 00:00:46,191 INFO [inventory-svc] request ok user=bob duration=193ms
+2026-10-10 00:00:48,348 DEBUG [payment-svc] login attempt user=alice password=P@ssw0rd-LAB from=192.0.2.246
+2026-10-10 00:00:50,886 INFO [auth-svc] request ok user=bob duration=245ms
+2026-10-10 00:00:52,386 DEBUG [orders-svc] outbound call Authorization: Bearer lab.fake.token-0026 status=200
+2026-10-10 00:00:54,286 WARN [orders-svc] slow response 2972 ms
+2026-10-10 00:00:56,517 INFO [auth-svc] request ok user=bob duration=60ms
+2026-10-10 00:00:58,377 WARN [payment-svc] slow response 2851 ms
+2026-10-10 00:01:00,531 INFO [payment-svc] request ok user=bob duration=146ms
+2026-10-10 00:01:02,339 WARN [payment-svc] slow response 1052 ms
+2026-10-10 00:01:04,689 ERROR [orders-svc] Unhandled exception processing order=ORD-1032
+java.lang.IllegalStateException: Payment gateway timeout after 3000 ms
+	at com.lab.payment.GatewayClient.charge(GatewayClient.java:142)
+	at com.lab.payment.OrderService.process(OrderService.java:88)
+	at com.lab.web.OrderController.post(OrderController.java:51)
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:186)
+2026-10-10 00:01:06,703 INFO [auth-svc] request ok user=bob duration=154ms
+2026-10-10 00:01:08,244 INFO [payment-svc] request ok user=bob duration=111ms
+2026-10-10 00:01:10,993 ERROR [orders-svc] Unhandled exception processing order=ORD-1035
+java.lang.IllegalStateException: Payment gateway timeout after 3000 ms
+	at com.lab.payment.GatewayClient.charge(GatewayClient.java:142)
+	at com.lab.payment.OrderService.process(OrderService.java:88)
+	at com.lab.web.OrderController.post(OrderController.java:51)
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:186)
+2026-10-10 00:01:12,538 WARN [orders-svc] slow response 1300 ms
+2026-10-10 00:01:14,404 INFO [payment-svc] request ok user=bob duration=57ms
+2026-10-10 00:01:16,092 INFO [auth-svc] request ok user=bob duration=237ms
+2026-10-10 00:01:18,538 INFO [inventory-svc] request ok user=bob duration=68ms
+2026-10-10 00:01:20,557 INFO [auth-svc] request ok user=bob duration=106ms
+2026-10-10 00:01:22,246 INFO [auth-svc] request ok user=bob duration=106ms
+2026-10-10 00:01:24,504 ERROR [payment-svc] Unhandled exception processing order=ORD-1042
+java.lang.IllegalStateException: Payment gateway timeout after 3000 ms
+	at com.lab.payment.GatewayClient.charge(GatewayClient.java:142)
+	at com.lab.payment.OrderService.process(OrderService.java:88)
+	at com.lab.web.OrderController.post(OrderController.java:51)
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:186)
+2026-10-10 00:01:26,659 INFO [orders-svc] request ok user=bob duration=25ms
+2026-10-10 00:01:28,903 INFO [inventory-svc] request ok user=bob duration=44ms
+2026-10-10 00:01:30,979 INFO [auth-svc] request ok user=bob duration=263ms
+2026-10-10 00:01:32,508 INFO [orders-svc] request ok user=bob duration=53ms
+2026-10-10 00:01:34,472 INFO [inventory-svc] request ok user=bob duration=273ms
+2026-10-10 00:01:36,913 ERROR [auth-svc] Unhandled exception processing order=ORD-1048
+java.lang.IllegalStateException: Payment gateway timeout after 3000 ms
+	at com.lab.payment.GatewayClient.charge(GatewayClient.java:142)
+	at com.lab.payment.OrderService.process(OrderService.java:88)
+	at com.lab.web.OrderController.post(OrderController.java:51)
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:186)
+2026-10-10 00:01:38,189 INFO [payment-svc] request ok user=bob duration=20ms
+2026-10-10 00:01:40,600 DEBUG [auth-svc] login attempt user=alice password=P@ssw0rd-LAB from=192.0.2.107
+2026-10-10 00:01:42,114 INFO [payment-svc] request ok user=bob duration=273ms
+2026-10-10 00:01:44,946 DEBUG [auth-svc] login attempt user=alice password=P@ssw0rd-LAB from=192.0.2.97
+2026-10-10 00:01:46,341 INFO [inventory-svc] request ok user=bob duration=259ms
+2026-10-10 00:01:48,270 INFO [orders-svc] request ok user=bob duration=66ms
+2026-10-10 00:01:50,983 INFO [inventory-svc] request ok user=bob duration=114ms
+2026-10-10 00:01:52,401 INFO [orders-svc] request ok user=bob duration=182ms
+2026-10-10 00:01:54,137 ERROR [auth-svc] Unhandled exception processing order=ORD-1057
+java.lang.IllegalStateException: Payment gateway timeout after 3000 ms
+	at com.lab.payment.GatewayClient.charge(GatewayClient.java:142)
+	at com.lab.payment.OrderService.process(OrderService.java:88)
+	at com.lab.web.OrderController.post(OrderController.java:51)
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:186)
+2026-10-10 00:01:56,618 INFO [auth-svc] request ok user=bob duration=274ms
+2026-10-10 00:01:58,654 ERROR [orders-svc] Unhandled exception processing order=ORD-1059
+java.lang.IllegalStateException: Payment gateway timeout after 3000 ms
+	at com.lab.payment.GatewayClient.charge(GatewayClient.java:142)
+	at com.lab.payment.OrderService.process(OrderService.java:88)
+	at com.lab.web.OrderController.post(OrderController.java:51)
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:186)
+2026-10-10 00:02:00,299 DEBUG [payment-svc] login attempt user=alice password=P@ssw0rd-LAB from=192.0.2.136
+2026-10-10 00:02:02,488 INFO [orders-svc] request ok user=bob duration=76ms
+2026-10-10 00:02:04,774 ERROR [inventory-svc] Unhandled exception processing order=ORD-1062
+java.lang.IllegalStateException: Payment gateway timeout after 3000 ms
+	at com.lab.payment.GatewayClient.charge(GatewayClient.java:142)
+	at com.lab.payment.OrderService.process(OrderService.java:88)
+	at com.lab.web.OrderController.post(OrderController.java:51)
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:186)
+2026-10-10 00:02:06,834 INFO [payment-svc] request ok user=bob duration=263ms
+2026-10-10 00:02:08,151 DEBUG [auth-svc] login attempt user=alice password=P@ssw0rd-LAB from=192.0.2.71
+2026-10-10 00:02:10,343 DEBUG [orders-svc] outbound call Authorization: Bearer lab.fake.token-0065 status=200
+2026-10-10 00:02:12,094 INFO [orders-svc] request ok user=bob duration=155ms
+2026-10-10 00:02:14,133 INFO [inventory-svc] request ok user=bob duration=26ms
+2026-10-10 00:02:16,849 INFO [orders-svc] request ok user=bob duration=177ms
+2026-10-10 00:02:18,243 INFO [inventory-svc] request ok user=bob duration=224ms
+2026-10-10 00:02:20,445 WARN [auth-svc] slow response 1193 ms
+2026-10-10 00:02:22,119 DEBUG [payment-svc] outbound call Authorization: Bearer lab.fake.token-0071 status=200
+2026-10-10 00:02:24,866 INFO [auth-svc] request ok user=bob duration=103ms
+2026-10-10 00:02:26,895 WARN [auth-svc] slow response 1632 ms
+2026-10-10 00:02:28,369 DEBUG [inventory-svc] outbound call Authorization: Bearer lab.fake.token-0074 status=200
+2026-10-10 00:02:30,622 INFO [auth-svc] request ok user=bob duration=18ms
+2026-10-10 00:02:32,395 INFO [payment-svc] request ok user=bob duration=42ms
+2026-10-10 00:02:34,328 ERROR [payment-svc] Unhandled exception processing order=ORD-1077
+java.lang.IllegalStateException: Payment gateway timeout after 3000 ms
+	at com.lab.payment.GatewayClient.charge(GatewayClient.java:142)
+	at com.lab.payment.OrderService.process(OrderService.java:88)
+	at com.lab.web.OrderController.post(OrderController.java:51)
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:186)
+2026-10-10 00:02:36,179 DEBUG [payment-svc] login attempt user=alice password=P@ssw0rd-LAB from=192.0.2.88
+2026-10-10 00:02:38,364 INFO [auth-svc] request ok user=bob duration=265ms
+2026-10-10 00:02:40,563 DEBUG [payment-svc] outbound call Authorization: Bearer lab.fake.token-0080 status=200
+2026-10-10 00:02:42,111 INFO [inventory-svc] request ok user=bob duration=253ms
+2026-10-10 00:02:44,434 INFO [payment-svc] request ok user=bob duration=273ms
+2026-10-10 00:02:46,851 DEBUG [orders-svc] login attempt user=alice password=P@ssw0rd-LAB from=192.0.2.247
+2026-10-10 00:02:48,041 DEBUG [auth-svc] login attempt user=alice password=P@ssw0rd-LAB from=192.0.2.230
+2026-10-10 00:02:50,567 INFO [auth-svc] request ok user=bob duration=234ms
+2026-10-10 00:02:52,798 DEBUG [payment-svc] login attempt user=alice password=P@ssw0rd-LAB from=192.0.2.61
+2026-10-10 00:02:54,488 DEBUG [payment-svc] outbound call Authorization: Bearer lab.fake.token-0087 status=200
+2026-10-10 00:02:56,217 INFO [payment-svc] request ok user=bob duration=68ms
+2026-10-10 00:02:58,054 INFO [auth-svc] request ok user=bob duration=236ms
+2026-10-10 00:03:00,707 INFO [auth-svc] request ok user=bob duration=29ms
+2026-10-10 00:03:02,519 INFO [orders-svc] request ok user=bob duration=38ms
+2026-10-10 00:03:04,822 DEBUG [orders-svc] login attempt user=alice password=P@ssw0rd-LAB from=192.0.2.47
+2026-10-10 00:03:06,957 INFO [auth-svc] request ok user=bob duration=236ms
+2026-10-10 00:03:08,261 DEBUG [payment-svc] outbound call Authorization: Bearer lab.fake.token-0094 status=200
+2026-10-10 00:03:10,612 INFO [inventory-svc] request ok user=bob duration=298ms
+2026-10-10 00:03:12,827 INFO [inventory-svc] request ok user=bob duration=156ms
+2026-10-10 00:03:14,850 ERROR [inventory-svc] Unhandled exception processing order=ORD-1097
+java.lang.IllegalStateException: Payment gateway timeout after 3000 ms
+	at com.lab.payment.GatewayClient.charge(GatewayClient.java:142)
+	at com.lab.payment.OrderService.process(OrderService.java:88)
+	at com.lab.web.OrderController.post(OrderController.java:51)
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:186)
+2026-10-10 00:03:16,534 ERROR [orders-svc] Unhandled exception processing order=ORD-1098
+java.lang.IllegalStateException: Payment gateway timeout after 3000 ms
+	at com.lab.payment.GatewayClient.charge(GatewayClient.java:142)
+	at com.lab.payment.OrderService.process(OrderService.java:88)
+	at com.lab.web.OrderController.post(OrderController.java:51)
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:186)
+2026-10-10 00:03:18,802 WARN [orders-svc] slow response 1816 ms
+2026-10-10 00:03:20,150 WARN [orders-svc] slow response 2005 ms
+2026-10-10 00:03:22,021 WARN [orders-svc] slow response 1596 ms
+2026-10-10 00:03:24,976 INFO [payment-svc] request ok user=bob duration=60ms
+2026-10-10 00:03:26,189 DEBUG [payment-svc] login attempt user=alice password=P@ssw0rd-LAB from=192.0.2.37
+2026-10-10 00:03:28,794 DEBUG [inventory-svc] outbound call Authorization: Bearer lab.fake.token-0104 status=200
+2026-10-10 00:03:30,573 DEBUG [auth-svc] outbound call Authorization: Bearer lab.fake.token-0105 status=200
+2026-10-10 00:03:32,716 INFO [auth-svc] request ok user=bob duration=247ms
+2026-10-10 00:03:34,158 INFO [inventory-svc] request ok user=bob duration=239ms
+2026-10-10 00:03:36,782 INFO [inventory-svc] request ok user=bob duration=20ms
+2026-10-10 00:03:38,657 ERROR [inventory-svc] Unhandled exception processing order=ORD-1109
+java.lang.IllegalStateException: Payment gateway timeout after 3000 ms
+	at com.lab.payment.GatewayClient.charge(GatewayClient.java:142)
+	at com.lab.payment.OrderService.process(OrderService.java:88)
+	at com.lab.web.OrderController.post(OrderController.java:51)
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:186)
+2026-10-10 00:03:40,221 WARN [orders-svc] slow response 1734 ms
+2026-10-10 00:03:42,532 DEBUG [payment-svc] login attempt user=alice password=P@ssw0rd-LAB from=192.0.2.170
+2026-10-10 00:03:44,616 INFO [orders-svc] request ok user=bob duration=271ms
+2026-10-10 00:03:46,141 INFO [auth-svc] request ok user=bob duration=150ms
+2026-10-10 00:03:48,847 INFO [auth-svc] request ok user=bob duration=213ms
+2026-10-10 00:03:50,908 INFO [auth-svc] request ok user=bob duration=294ms
+2026-10-10 00:03:52,624 DEBUG [inventory-svc] login attempt user=alice password=P@ssw0rd-LAB from=192.0.2.141
+2026-10-10 00:03:54,823 DEBUG [payment-svc] outbound call Authorization: Bearer lab.fake.token-0117 status=200
+2026-10-10 00:03:56,781 WARN [orders-svc] slow response 1400 ms
+2026-10-10 00:03:58,444 ERROR [orders-svc] Unhandled exception processing order=ORD-1119
+java.lang.IllegalStateException: Payment gateway timeout after 3000 ms
+	at com.lab.payment.GatewayClient.charge(GatewayClient.java:142)
+	at com.lab.payment.OrderService.process(OrderService.java:88)
+	at com.lab.web.OrderController.post(OrderController.java:51)
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:186)
+2026-10-10 00:04:00,563 WARN [inventory-svc] slow response 2211 ms
+2026-10-10 00:04:02,416 INFO [auth-svc] request ok user=bob duration=115ms
+2026-10-10 00:04:04,015 INFO [inventory-svc] request ok user=bob duration=55ms
+2026-10-10 00:04:06,688 INFO [payment-svc] request ok user=bob duration=275ms
+2026-10-10 00:04:08,321 INFO [orders-svc] request ok user=bob duration=66ms
+2026-10-10 00:04:10,257 INFO [payment-svc] request ok user=bob duration=209ms
+2026-10-10 00:04:12,554 DEBUG [payment-svc] login attempt user=alice password=P@ssw0rd-LAB from=192.0.2.204
+2026-10-10 00:04:14,791 INFO [orders-svc] request ok user=bob duration=144ms
+2026-10-10 00:04:16,641 INFO [auth-svc] request ok user=bob duration=89ms
+2026-10-10 00:04:18,489 ERROR [payment-svc] Unhandled exception processing order=ORD-1129
+java.lang.IllegalStateException: Payment gateway timeout after 3000 ms
+	at com.lab.payment.GatewayClient.charge(GatewayClient.java:142)
+	at com.lab.payment.OrderService.process(OrderService.java:88)
+	at com.lab.web.OrderController.post(OrderController.java:51)
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:186)
+2026-10-10 00:04:20,683 INFO [inventory-svc] request ok user=bob duration=204ms
+2026-10-10 00:04:22,064 ERROR [auth-svc] Unhandled exception processing order=ORD-1131
+java.lang.IllegalStateException: Payment gateway timeout after 3000 ms
+	at com.lab.payment.GatewayClient.charge(GatewayClient.java:142)
+	at com.lab.payment.OrderService.process(OrderService.java:88)
+	at com.lab.web.OrderController.post(OrderController.java:51)
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:186)
+2026-10-10 00:04:24,781 WARN [inventory-svc] slow response 1107 ms
+2026-10-10 00:04:26,083 INFO [payment-svc] request ok user=bob duration=176ms
+2026-10-10 00:04:28,843 ERROR [auth-svc] Unhandled exception processing order=ORD-1134
+java.lang.IllegalStateException: Payment gateway timeout after 3000 ms
+	at com.lab.payment.GatewayClient.charge(GatewayClient.java:142)
+	at com.lab.payment.OrderService.process(OrderService.java:88)
+	at com.lab.web.OrderController.post(OrderController.java:51)
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:186)
+2026-10-10 00:04:30,067 WARN [inventory-svc] slow response 1943 ms
+2026-10-10 00:04:32,082 INFO [orders-svc] request ok user=bob duration=42ms
+2026-10-10 00:04:34,878 ERROR [orders-svc] Unhandled exception processing order=ORD-1137
+java.lang.IllegalStateException: Payment gateway timeout after 3000 ms
+	at com.lab.payment.GatewayClient.charge(GatewayClient.java:142)
+	at com.lab.payment.OrderService.process(OrderService.java:88)
+	at com.lab.web.OrderController.post(OrderController.java:51)
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:186)
+2026-10-10 00:04:36,417 INFO [payment-svc] request ok user=bob duration=272ms
+2026-10-10 00:04:38,200 INFO [inventory-svc] request ok user=bob duration=78ms
+2026-10-10 00:04:40,051 DEBUG [orders-svc] login attempt user=alice password=P@ssw0rd-LAB from=192.0.2.72
+2026-10-10 00:04:42,276 INFO [auth-svc] request ok user=bob duration=230ms
+2026-10-10 00:04:44,453 DEBUG [orders-svc] outbound call Authorization: Bearer lab.fake.token-0142 status=200
+2026-10-10 00:04:46,059 INFO [inventory-svc] request ok user=bob duration=211ms
+2026-10-10 00:04:48,781 INFO [inventory-svc] request ok user=bob duration=75ms
+2026-10-10 00:04:50,352 WARN [auth-svc] slow response 1177 ms
+2026-10-10 00:04:52,763 INFO [inventory-svc] request ok user=bob duration=247ms
+2026-10-10 00:04:54,944 INFO [inventory-svc] request ok user=bob duration=87ms
+2026-10-10 00:04:56,578 INFO [auth-svc] request ok user=bob duration=139ms
+2026-10-10 00:04:58,023 INFO [inventory-svc] request ok user=bob duration=278ms

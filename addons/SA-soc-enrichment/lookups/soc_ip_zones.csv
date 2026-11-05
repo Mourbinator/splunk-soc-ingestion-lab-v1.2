@@ -1,0 +1,6 @@
+cidr,zone
+192.0.2.0/26,guest-wifi
+192.0.2.64/26,partner
+192.0.2.128/25,internet
+198.51.100.0/25,dc-servers
+198.51.100.128/25,dmz

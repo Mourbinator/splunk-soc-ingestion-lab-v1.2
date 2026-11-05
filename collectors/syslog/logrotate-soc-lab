@@ -1,0 +1,13 @@
+# Copier vers /etc/logrotate.d/soc-lab  (test à blanc : sudo logrotate -d /etc/logrotate.d/soc-lab)
+/var/log/soc-lab/firewall/*.log /var/log/soc-lab/unrouted/*.log {
+    daily
+    rotate 7
+    missingok
+    notifempty
+    compress
+    delaycompress
+    create 0640 root adm
+    postrotate
+        /usr/sbin/syslog-ng-ctl reload >/dev/null 2>&1 || true
+    endscript
+}

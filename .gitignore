@@ -1,0 +1,13 @@
+.env
+*.env
+!config.example.env
+*.token
+secrets/
+local/
+*.pem
+*.key
+__pycache__/
+.venv/
+state/
+generated/
+*.pyc
